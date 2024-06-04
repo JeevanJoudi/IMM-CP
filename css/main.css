@@ -1,4 +1,87 @@
-img{
-	width:20%;
-	height:auto;
+img {
+	width: 20%;
+	height: auto;
+}
+
+.title_green {
+	color: #007f53;
+}
+
+.title_gray {
+	color: #595959;
+}
+
+.applynow_round_button {
+	display: block;
+	background-color: #006341;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	height:100px;
+	width: 100px;
+	border-radius: 100%;
+}
+
+.viewmore_button{
+	display: block;
+	background-color: #006341;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+.viewall_button{
+	display: block;
+	background-color: #006341;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+.download_button{
+	display: block;
+	background-color: #006341;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+.applynow_button{
+	display: block;
+	background-color: #006341;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+.green_bg_section{
+	display: block;
+	width: 250px;
+	height:100px;
+	padding: 25px;
+	background-color: #006837;
+	color:white;
+}
+
+.green_bg_div{
+	display: block;
+	width: 300px;
+	padding: 25px;
+	background-color: #006837;
+	color:white;
+	margin: 10px;
 }
