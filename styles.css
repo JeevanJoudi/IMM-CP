@@ -603,13 +603,14 @@ scroll-behavior: smooth !important;
 }
 
 .slide3_bannerContainer{
+    position: relative;
+
     display: flex;
     flex-direction: column;
 
-    position: relative;
     width: 60%;
 
-    padding: 120px 0 0 0 !important;
+    padding: 100px 0 0 0 !important;
 }
 
 .slide3_banner1,
@@ -642,6 +643,23 @@ scroll-behavior: smooth !important;
     z-index: 2;
 }
 
+.slide3_banner4{
+    position: absolute;
+    right: 68%;
+    top: 180%;
+    z-index: 1;
+}
+
+.slide3_photoObject_container {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+.slide3_photoObject_image {
+    width: 350px;
+    height: auto;
+}
 
 
 
