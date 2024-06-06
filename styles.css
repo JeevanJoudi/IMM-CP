@@ -459,7 +459,7 @@ scroll-behavior: smooth !important;
     justify-content: center;
     align-items: flex-start;
     column-gap: 60px;
-    padding: 100px 40px 0 40px !important;
+    padding: 40px 40px 0 40px !important;
     box-sizing: border-box;
 
 }
@@ -524,10 +524,11 @@ scroll-behavior: smooth !important;
     line-height: 1.25em;
     position: absolute;
     bottom: 0;
-    right: -450px;
+    left: 80%;
     background-color: #006341;
     color: #FFFFFF;
-    width: 500px;
+    width: 80%;
+    height: auto;
     padding: 20px !important;
 }
 
@@ -573,8 +574,10 @@ scroll-behavior: smooth !important;
     color: #505050;
     justify-content: flex-start;
     align-items: flex-start;
+    column-gap: 10px;
     box-sizing: border-box;
-    padding: 100px 175px 0 175px !important;
+    padding: 40px 175px 0 175px !important;
+    position: relative;
 }
 
 .slide3_header_container{
@@ -598,6 +601,52 @@ scroll-behavior: smooth !important;
     line-height: 1.5em;
     padding: 20px 0 0 0 !important;
 }
+
+.slide3_bannerContainer{
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    width: 60%;
+
+    padding: 120px 0 0 0 !important;
+}
+
+.slide3_banner1,
+.slide3_banner2,
+.slide3_banner3,
+.slide3_banner4{
+    width: 100%;
+}
+
+
+.slide3_bannerContainer div img {
+    width: 100%;
+}
+
+.slide3_banner1{
+    z-index: 4;
+}
+
+.slide3_banner2{
+    position: absolute;
+    right: 68%;
+    top: 90%;
+    z-index: 3;
+}
+
+.slide3_banner3{
+    position: absolute;
+    right: 0;
+    top: 135%;
+    z-index: 2;
+}
+
+
+
+
+
+
 
 /*ditogar*/
 
