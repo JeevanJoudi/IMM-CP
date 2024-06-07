@@ -251,7 +251,7 @@ table {
 }
 
 @font-face {
-    font-family: 'Raleway';
+    font-family: 'Raleway-Bold';
     src: url('font/Raleway-Bold.woff2') format('woff2'),
         url('font/Raleway-Bold.woff') format('woff');
     font-weight: bold;
@@ -287,7 +287,7 @@ table {
 }
 
 @font-face {
-    font-family: 'Raleway';
+    font-family: 'Raleway-Regular';
     src: url('font/Raleway-Regular.woff2') format('woff2'),
         url('font/Raleway-Regular.woff') format('woff');
     font-weight: normal;
@@ -697,36 +697,54 @@ scroll-behavior: smooth !important;
     padding: 20px 0 0 0 !important;
 }
 
+.slide4_invisible{
+    position: relative;
+    border: 1px solid red;
+    width: 100% !important;
+
+}
 .slide4_cardsContainer{
     display: flex;
     column-gap: 20px;
-    justify-content: flex-start;
+/*    justify-content: flex-start;*/
     width: 100%;
 
     overflow: visible;
 
     z-index: 5;
-    flex-wrap: wrap;
 
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 200px 0 0 175px !important;
 
 }
 
-.slide4_cardsContainer > div {
+.slide4_firstTwo,
+.slide4_lastTwo{
+    display: flex;
+    column-gap: 20px;
+    width: 50%;
+}
+
+.slide4_cardHolder {
     width: 300px;
 }
 
-.slide4_portfolio1{
+.slide4_portfolio_img{
     width: 100%;
     height: auto;
+    padding: 0 0 10px 0 !important;
 }
 
+.slide4_portfolio_h1{
+    font-family: 'Raleway-Bold';
+    color: #00530B;
+    font-size: 1.25em;
+}
 
-
+.slide4_portfolio_h2{
+    font-family: 'Raleway-Regular';
+    color: #595959;
+    font-size: 1em;
+}
 
 .slide4_photoObject_container {
     position: absolute !important;
@@ -738,15 +756,6 @@ scroll-behavior: smooth !important;
     width: 250px;
     height: auto;
 }
-
-
-
-
-
-
-
-
-
 
 /*ditogar*/
 
