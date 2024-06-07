@@ -547,12 +547,10 @@ scroll-behavior: smooth !important;
     text-decoration: underline;
 }
 
-
 .slide2_photoObject {
     width: 250px;
     height: auto;
 }
-
 
 .slide2_photoObject_container {
     position: absolute;
@@ -610,7 +608,7 @@ scroll-behavior: smooth !important;
 
     width: 60%;
 
-    padding: 100px 0 0 0 !important;
+    padding: 30px 0 0 0 !important;
 }
 
 .slide3_banner1,
@@ -632,21 +630,21 @@ scroll-behavior: smooth !important;
 .slide3_banner2{
     position: absolute;
     right: 68%;
-    top: 90%;
+    top: 89.5%;
     z-index: 3;
 }
 
 .slide3_banner3{
     position: absolute;
     right: 0;
-    top: 135%;
+    top: 165%;
     z-index: 2;
 }
 
 .slide3_banner4{
     position: absolute;
     right: 68%;
-    top: 180%;
+    top: 240%;
     z-index: 1;
 }
 
@@ -659,6 +657,17 @@ scroll-behavior: smooth !important;
 .slide3_photoObject_image {
     width: 350px;
     height: auto;
+}
+
+.bottom_left{
+    font-family: 'Bebas-Neue-Regular';
+    font-size: 2em;
+    color: #FFFFFF;
+
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
 }
 
 
