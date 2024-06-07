@@ -1,94 +1,190 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="nav-style.css" />
+  </head>
 
-</head>
-<body>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-main-container">
+          <img id="logo-img" src="img/logo.png" alt="Logo" />
+          <img
+            id="nav-bg-img"
+            src="img/nav-background.png"
+            alt="Navigation Background, A half cut of Camera Lens"
+          />
 
-	<div class="flex_container">
+          <div class="nav-link-container">
+            <svg width="550" height="450">
+              <path id="curve" d="M 280 100 A 180 180 0 0 1 460 420"></path>
+              <text class="text">
+                <textPath
+                  class="nav-links"
+                  href="#curve"
+                  startOffset="28%"
+                  spacing="20%"
+                >
+                  <a class="nav-link" href="http://example.com/home">Home</a>
+                  <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                  <a href="http://example.com/about">About</a>
+                  <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                  <a href="http://example.com/testimonials">Testimonials</a>
+                  <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                  <a href="http://example.com/faculty">Faculty</a>
+                  <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                </textPath>
+              </text>
+            </svg>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="flex_container">
+      <!-- slide 2 start-->
+      <div class="slide2">
+        <div class="slide2_leftCol">
+          <img
+            src="img/student_discussion.jpg"
+            alt="student discussion"
+            class="slide2_banner"
+          />
 
-		<!-- slide 2 start-->
-		<div class="slide2">
-			<div class="slide2_leftCol">
-				<img src="img/student_discussion.jpg" alt="student discussion" class="slide2_banner">
+          <div class="slide2_overlapText_container">
+            <div class="slide2_overlapText">
+              Advance your skills in interactive media and design. Build a Solid
+              Foundation for today’s Job market.
+            </div>
 
-				<div class="slide2_overlapText_container">
+            <div class="slide2_readmore">
+              <a href="#">Read more</a>
+            </div>
+          </div>
 
-					<div class="slide2_overlapText">Advance your skills in interactive media and design. Build a Solid Foundation for today’s Job market.</div>
+          <div class="slide2_h1">
+            Start with Basics and<br />
+            Accelerate.
+          </div>
+        </div>
 
-					<div class="slide2_readmore">
-						<a href="#">Read more</a>
-					</div>
+        <div class="slide2_p">
+          This program is designed to help start a new career or enhance an
+          existing one as it provides industry professionals who teach a broad
+          array of media-related topics and theories applicable to all of
+          today’s industries.
+        </div>
 
-				</div>
+        <div class="slide2_photoObject_container">
+          <img
+            src="img/slide2_photoObject.png"
+            alt="slide2_photoObject"
+            class="slide2_photoObject_image"
+          />
+        </div>
+      </div>
+      <!-- slide 2 end-->
 
-				<div class="slide2_h1">
-					Start with Basics and<br>
-					Accelerate.
-				</div>
-			</div>
+      <!-- slide 3 start -->
+      <div class="slide3">
+        <div class="slide3_header_container">
+          <div class="slide3_header_1">WHAT YOU WILL BE</div>
+          <div class="slide3_header_2">STUDYING</div>
 
-			<div class="slide2_p">
-				This program is designed to help start a new career or enhance an existing one as it provides industry professionals who teach a broad array of media-related topics and theories applicable to all of today’s industries.
-			</div>
+          <div class="slide3_p">
+            Courses may be offered in the classroom or lab, entirely online, or
+            in a hybrid mode which combines classroom sessions with virtual
+            learning activities.
+          </div>
+        </div>
 
-			<div class="slide2_photoObject_container">
-				<img src="img/slide2_photoObject.png" alt="slide2_photoObject" class="slide2_photoObject_image">
-			</div>
-		</div>
-		<!-- slide 2 end-->
+        <div class="slide3_bannerContainer">
+          <div class="slide3_banner1">
+            <img
+              src="img/slide3_webDev_banner.png"
+              alt=""
+              class="slide3_banner1_img"
+            />
+            <div class="slide3_overlayTxt">WEB DEVELOPMENT</div>
+          </div>
 
-		<!-- slide 3 start -->
-		<div class="slide3">
+          <div class="slide3_banner2">
+            <img
+              src="img/slide3_graphicLayout_banner.png"
+              alt=""
+              class="slide3_banner2_img"
+            />
+            <div class="slide3_overlayTxt">GRAPHIC LAYOUT DESIGN</div>
+          </div>
 
-			<div class="slide3_header_container">
-				<div class="slide3_header_1">
-					WHAT YOU WILL BE
-				</div>
-				<div class="slide3_header_2">
-					STUDYING
-				</div>
+          <div class="slide3_banner3">
+            <img
+              src="img/slide3_uiux_banner.png"
+              alt=""
+              class="slide3_banner3_img"
+            />
+            <div class="slide3_overlayTxt">UI/UX DESIGN</div>
+          </div>
 
-				<div class="slide3_p">
-					Courses may be offered in the classroom or lab, entirely online, or in a hybrid mode which combines classroom sessions with virtual learning activities. 
-				</div>
-			</div>
+          <div class="slide3_banner4">
+            <img
+              src="img/slide3_photo_banner.png"
+              alt=""
+              class="slide3_banner2_img"
+            />
+            <div class="slide3_overlayTxt">PHOTO/VIDEO PRODUCTION</div>
+          </div>
+        </div>
 
-			<div class="slide3_bannerContainer">
-				<div class="slide3_banner1">
-					<img src="img/slide3_webDev_banner.png" alt="" class="slide3_banner1_img">
-					<div class="slide3_overlayTxt">WEB DEVELOPMENT</div>
-				</div>
+        <div class="slide3_photoObject_container">
+          <img
+            src="img/slide3_photoObject.png"
+            alt="slide2_photoObject"
+            class="slide3_photoObject_image"
+          />
+        </div>
+      </div>
+      <!-- slide 3 end -->
 
-				<div class="slide3_banner2">
-					<img src="img/slide3_graphicLayout_banner.png" alt="" class="slide3_banner2_img">
-					<div class="slide3_overlayTxt">GRAPHIC LAYOUT DESIGN</div>
-				</div>
+      <!-- slide 4 start -->
+      <div class="slide4">
+        <div class="slide4_header_container">
+          <div class="slide4_header_1">WHAT YOU WILL BE</div>
+          <div class="slide4_header_2">STUDYING</div>
 
-				<div class="slide3_banner3">
-					<img src="img/slide3_uiux_banner.png" alt="" class="slide3_banner3_img">
-					<div class="slide3_overlayTxt">UI/UX DESIGN</div>
-				</div>
+          <div class="slide4_p">
+            In the one-year Interactive Media Management Ontario College
+            Graduate Certificate program, you develop the hands-on skills to
+            plan and develop websites, online media and dynamic content. While
+            learning industry standard practices, you gain the solid foundation
+            in interactive media that you need to further your career in today's
+            dynamic job market.
+          </div>
+        </div>
 
-				<div class="slide3_banner4">
-					<img src="img/slide3_photo_banner.png" alt="" class="slide3_banner2_img">
-					<div class="slide3_overlayTxt">PHOTO/VIDEO PRODUCTION</div>
-				</div>
-			</div>
+        <div class="slide4_cardsContainer">
+          <div>
+            <img
+              src="img/slide4_portfolio1.png"
+              alt=""
+              class="slide4_portfolio1"
+            />
+          </div>
 
-			<div class="slide3_photoObject_container">
-				<img src="img/slide3_photoObject.png" alt="slide2_photoObject" class="slide3_photoObject_image">
-			</div>
-		</div>
-		<!-- slide 3 end -->
+          <div>
+            <img
+              src="img/slide4_portfolio2.png"
+              alt=""
+              class="slide4_portfolio1"
+            />
+          </div>
 
+<<<<<<< HEAD
 		<!-- slide 4 start -->
 		<div class="slide4">
 
@@ -99,12 +195,26 @@
 				<div class="slide4_header_2">
 					STUDYING
 				</div>
+=======
+          <div>
+            <img
+              src="img/slide4_portfolio3.png"
+              alt=""
+              class="slide4_portfolio1"
+            />
+          </div>
+>>>>>>> d6fd1b9d7823002a0bd25424918416b06187b179
 
-				<div class="slide4_p">
-					In the one-year Interactive Media Management Ontario College Graduate Certificate program, you develop the hands-on skills to plan and develop websites, online media and dynamic content. While learning industry standard practices, you gain the solid foundation in interactive media that you need to further your career in today's dynamic job market.
-				</div>
-			</div>
+          <div>
+            <img
+              src="img/slide4_portfolio4.png"
+              alt=""
+              class="slide4_portfolio1"
+            />
+          </div>
+        </div>
 
+<<<<<<< HEAD
 			<div class="slide4_invisible">
 
 				<div class="slide4_cardsContainer">
@@ -200,3 +310,43 @@
 	</script>
 </body>
 </html>
+=======
+        <div class="slide4_photoObject_container">
+          <img
+            src="img/slide4_photoObject.png"
+            alt="slide2_photoObject"
+            class="slide4_photoObject_image"
+          />
+        </div>
+      </div>
+      <!-- slide 4 end -->
+    </div>
+
+    <script>
+      document.addEventListener("wheel", (event) => {
+        event.preventDefault(); // Prevent vertical scroll
+        document.documentElement.scrollLeft += event.deltaY; // Horizontal scroll
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        let lastScrollTop = 0;
+        const navMainContainer = document.querySelector(".nav-main-container");
+
+        window.addEventListener("scroll", () => {
+          const scrollTop =
+            window.pageXOffset || document.documentElement.scrollTop;
+
+          if (scrollTop > lastScrollTop) {
+            // Scroll down
+            navMainContainer.classList.add("hidden");
+          } else {
+            // Scroll up
+            navMainContainer.classList.remove("hidden");
+          }
+
+          lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+      });
+    </script>
+  </body>
+</html>
+>>>>>>> d6fd1b9d7823002a0bd25424918416b06187b179
