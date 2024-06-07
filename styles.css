@@ -668,6 +668,8 @@ scroll-behavior: smooth !important;
     bottom: 10px;
     left: 20px;
 
+    filter: drop-shadow(2px 8px 10px #000000);
+
 }
 
 
