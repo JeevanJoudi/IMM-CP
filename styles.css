@@ -664,9 +664,8 @@ scroll-behavior: smooth !important;
     color: #505050;
     justify-content: flex-start;
     align-items: flex-start;
-    column-gap: 10px;
     box-sizing: border-box;
-    padding: 40px 175px 0 175px !important;
+    padding: 40px 0 0 175px !important;
     position: relative;
 
     order: 1;
@@ -699,13 +698,14 @@ scroll-behavior: smooth !important;
 
 .slide4_invisible{
     position: relative;
-    border: 1px solid red;
+/*    border: 1px solid blue;*/
     width: 100% !important;
+    overflow: visible;
+    padding: 20px 0 0 0 !important;
 
 }
 .slide4_cardsContainer{
     display: flex;
-    column-gap: 20px;
 /*    justify-content: flex-start;*/
     width: 100%;
 
@@ -714,18 +714,45 @@ scroll-behavior: smooth !important;
     z-index: 5;
 
     position: absolute;
+    column-gap: 50px;
 
 }
 
 .slide4_firstTwo,
 .slide4_lastTwo{
     display: flex;
-    column-gap: 20px;
-    width: 50%;
+    flex: 1;
+    justify-content: flex-start;
+    column-gap: 50px;
 }
 
+.slide4_firstTwo .slide4_cardHolder:first-child{
+    margin: 100px 0 0 0 !important;
+}
+
+
+
+
+.slide4_lastTwo{
+    position: relative;
+}
+
+.slide4_lastTwo .slide4_cardHolder:first-child{
+/*    border: 1px solid red;*/
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+
+.slide4_lastTwo .slide4_cardHolder:nth-child(2){
+/*    border: 1px solid red;*/
+    position: absolute;
+    right: -50px;
+}
+
+
 .slide4_cardHolder {
-    width: 300px;
+    width: 50%;
 }
 
 .slide4_portfolio_img{
@@ -745,6 +772,13 @@ scroll-behavior: smooth !important;
     color: #595959;
     font-size: 1em;
 }
+
+
+
+
+
+
+
 
 .slide4_photoObject_container {
     position: absolute !important;
