@@ -670,6 +670,8 @@ scroll-behavior: smooth !important;
 
     order: 1;
     flex-direction: column !important;
+    overflow: visible;
+
 }
 
 .slide4_header_container{
@@ -701,6 +703,7 @@ scroll-behavior: smooth !important;
     width: 100% !important;
     overflow: visible;
     padding: 20px 0 0 0 !important;
+    z-index: 5;
 
 }
 .slide4_cardsContainer{
