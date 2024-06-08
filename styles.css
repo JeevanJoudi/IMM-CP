@@ -698,7 +698,6 @@ scroll-behavior: smooth !important;
 
 .slide4_invisible{
     position: relative;
-/*    border: 1px solid blue;*/
     width: 100% !important;
     overflow: visible;
     padding: 20px 0 0 0 !important;
@@ -706,16 +705,12 @@ scroll-behavior: smooth !important;
 }
 .slide4_cardsContainer{
     display: flex;
-/*    justify-content: flex-start;*/
     width: 100%;
 
     overflow: visible;
 
-    z-index: 5;
-
     position: absolute;
     column-gap: 50px;
-
 }
 
 .slide4_firstTwo,
@@ -729,9 +724,6 @@ scroll-behavior: smooth !important;
 .slide4_firstTwo .slide4_cardHolder:first-child{
     margin: 100px 0 0 0 !important;
 }
-
-
-
 
 .slide4_lastTwo{
     position: relative;
@@ -763,7 +755,7 @@ scroll-behavior: smooth !important;
 
 .slide4_portfolio_h1{
     font-family: 'Raleway-Bold';
-    color: #00530B;
+    color: #007F53;
     font-size: 1.25em;
 }
 
@@ -773,12 +765,41 @@ scroll-behavior: smooth !important;
     font-size: 1em;
 }
 
+.slide4_bottomSection{
+    font-family: 'Raleway-Medium';
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #505050;
+    width: 800px;
 
+    position: absolute;
+    left: 20%;
+    bottom: 20px;
 
+    display: flex;
+    column-gap: 40px;
 
+}
 
+.slide4_bottomSection .slide4_bottomSection_text:first-child{
+    width: 450px;
+    box-sizing: border-box;
+}
 
+.slide4_cta{
+    font-family: 'Raleway-Bold';
+    background-color: #007F53;
+    color: #FFFFFF;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    padding: 20px 20px !important;
+    font-size: 1.5em;
+}
 
+.slide4_cta_container a{
+    text-decoration: none;
+}
 
 .slide4_photoObject_container {
     position: absolute !important;
