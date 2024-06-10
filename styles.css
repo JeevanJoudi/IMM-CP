@@ -732,14 +732,12 @@ scroll-behavior: smooth !important;
 }
 
 .slide4_lastTwo .slide4_cardHolder:first-child{
-/*    border: 1px solid red;*/
     position: absolute;
     top: -100px;
     left: 0px;
 }
 
 .slide4_lastTwo .slide4_cardHolder:nth-child(2){
-/*    border: 1px solid red;*/
     position: absolute;
     right: -50px;
 }
@@ -907,7 +905,6 @@ scroll-behavior: smooth !important;
 }
 
 .slide5_cta_container{
-/*    border: 1px solid red;*/
     padding: 20px;
     width: 50%;
     text-align: center !important;
@@ -939,7 +936,7 @@ scroll-behavior: smooth !important;
     padding: 40px 175px 0 175px !important;
     position: relative;
 
-    order: 1;
+    order: 6;
     flex-direction: column !important;
     overflow: visible;
 }
@@ -1054,6 +1051,93 @@ scroll-behavior: smooth !important;
 .slide6_cta_container a{
     text-decoration: none;
 }
+
+.flex_container .footer {
+    background-color: #FFFFFF;
+    color: #505050;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+/*    padding: 40px 175px 0 175px !important;*/
+    position: relative;
+
+    order: 1;
+    flex-direction: row !important;
+    overflow: visible;
+    height: 100%;
+}
+
+.footer_leftCol{
+    padding: 40px 0 0 175px !important;
+/*    background-color: red;*/
+    width: 45%;
+    height: 100vh;
+    display: block;
+}
+
+
+
+.footer_header_1{
+    font-family: 'Bebas-Neue-Regular';
+    font-size: 2em;
+    color: #595959;
+}
+
+.footer_header_2{
+    font-family: 'Bebas-Neue-Regular';
+    font-size: 2.5em;
+    color: #007F53;
+    padding: 0 0 20px 0 !important;
+}
+
+.footer_downloadCta{
+    font-family: 'Raleway-Bold';
+    background-color: #007F53;
+    color: #FFFFFF !important;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px 20px !important;
+    font-size: 1.5em;
+}
+
+.footer_download_container a {
+    text-decoration: none !important;
+}
+
+.footer_branchList{
+    width: 100%;
+    padding: 40px 0 0 0 !important;
+}
+
+.footer_branchList_row{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.footer_branch{
+    flex: 1;
+}
+
+.footer_city{
+    font-family: 'Raleway-Bold';
+    color: #595959;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.footer_address{
+    font-family: 'Raleway-Regular';
+    color: #595959;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+.footer_branchList .footer_branchList_row:nth-child(2){
+    padding: 40px 0 0 0 !important;
+}
+
 
 
 
