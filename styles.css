@@ -945,6 +945,118 @@ scroll-behavior: smooth !important;
 }
 
 
+.slide6_header_container{
+    width: 50%;
+    display: block;
+}
+
+.slide6_header_1{
+    font-family: 'Bebas-Neue-Regular';
+    font-size: 2em;
+    color: #595959;
+}
+
+.slide6_header_2{
+    font-family: 'Bebas-Neue-Regular';
+    font-size: 2.5em;
+    color: #007F53;
+}
+
+.slide6_p{
+    font-family: 'Raleway-Medium';
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 20px 0 0 0 !important;
+    width: 50%;
+    min-width: 280px;
+}
+
+.slide6_professors_container{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0 0 0 !important;
+    column-gap: 50px;
+    width: 100%;
+}
+
+.slide6_prof_card{
+    position: relative;
+    width: 300px;
+}
+
+.slide6_prof_img{
+    width: 100%;
+    height: auto;
+    padding: 0 0 10px 0 !important;
+}
+
+.slide6_portfolio_h1{
+    font-family: 'Raleway-Bold';
+    color: #007F53;
+    font-size: 1.25em;
+}
+
+.slide6_portfolio_h2{
+    font-family: 'Raleway-Regular';
+    color: #595959;
+    font-size: 1em;
+    line-height: 1.25em;
+}
+
+
+.slide6_professors_container .slide6_prof_card:first-child{
+    margin: 50px 0 0 0 !important;
+}
+
+.slide6_professors_container .slide6_prof_card:nth-child(2){
+    margin: -20px 0 0 0 !important;
+}
+
+.slide6_professors_container .slide6_prof_card:nth-child(3){
+    margin: -100px 0 0 0 !important;
+}
+
+.slide6_professors_container .slide6_prof_card:nth-child(4){
+    margin: 80px 0 0 0 !important;
+}
+
+.slide6_photoObject_container {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.slide6_photoObject_image {
+    width: 200px;
+    height: auto;
+}
+
+
+
+.slide6_cta_container{
+    position: absolute;
+    bottom: 20px;
+    right: 35%;
+
+}
+
+.slide6_cta{
+    font-family: 'Raleway-Bold';
+    background-color: #007F53;
+    color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 20px !important;
+    font-size: 1.5em;
+}
+
+.slide6_cta_container a{
+    text-decoration: none;
+}
+
+
+
 
 
 
