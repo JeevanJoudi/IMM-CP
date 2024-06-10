@@ -814,8 +814,6 @@ scroll-behavior: smooth !important;
     height: auto;
 }
 
-/*ditogar*/
-
 .flex_container .slide5 {
     background-color: #FFFFFF;
     color: #505050;
@@ -825,7 +823,7 @@ scroll-behavior: smooth !important;
     padding: 40px 175px 0 175px !important;
     position: relative;
 
-    order: 1;
+    order: 5;
     flex-direction: column !important;
     overflow: visible;
 }
@@ -930,6 +928,20 @@ scroll-behavior: smooth !important;
 
 .slide5_cta_container a{
     text-decoration: none;
+}
+
+.flex_container .slide6 {
+    background-color: #FFFFFF;
+    color: #505050;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 40px 175px 0 175px !important;
+    position: relative;
+
+    order: 1;
+    flex-direction: column !important;
+    overflow: visible;
 }
 
 
