@@ -451,6 +451,115 @@ scroll-behavior: smooth !important;
 
 }
 
+/* slide 1 start  */
+.flex_container .slide1 {
+    position: relative;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 40px 0 40px !important;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.slide1_h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 6.375em;
+    line-height: (122.4 pt);
+    color: #006837;
+    padding: 20px 0 0 0 !important;
+    margin-top: 0.8em !important;
+    position: absolute;
+    top: 15%;
+    right: 18%;
+    transform: translateY(-35%);
+    
+}
+
+.slide1_banner {
+    width: 100%;
+    /* max-width: 700px;*/
+    height: auto;
+    position: absolute;
+    height: 48vh;
+    width: auto;
+    bottom: 6%;
+    left: 0%;
+}
+
+
+
+.slide1_p p{
+    position: absolute;
+    top: 37%;
+    right: 22%;
+    transform: translateY(-35%);
+    font-family: "Raleway", sans-serif;
+    font-style:normal;
+    font-size: 2.25em;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #505050;
+    padding-top: 1em;
+    
+    
+}
+
+
+
+.slide1_photoObject {
+    max-width: 250px;
+    height: auto;
+    size: 200px;;
+}
+
+
+.slide1_photoObject_container {
+    position: absolute;
+    right: 22em;
+    top: -1.5em;
+}
+
+.slide1_photoObject_image {
+    width: 200px;
+    height: auto;
+}
+.applynow_button {
+    position: absolute;
+	display: block;
+	background-color: #006341;
+	padding: 20px;
+	text-align: center;
+	border-radius: 50%; /* Makes the button circular */
+    width: 12.5em;
+    height: 12.5em;
+    border: none;
+    bottom:30%;
+    right:35%;
+    outline: none;
+    box-shadow: 0.5em 0.5em 8px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+.applynow_button h3{
+    color: #FFFFFF;
+    text-wrap: wrap;
+	font-size: 48px;
+    font-family: 'Raleway';
+	text-align: center;
+    font-weight: bold;
+    
+}
+
+
+/* slide 1 ends  */
+
 /*slide2 start*/
 
 .flex_container .slide2 {
