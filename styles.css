@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 /*bebas*/
 
 * {
@@ -57,6 +58,66 @@ scroll-behavior: smooth !important;
 }
 
 /* slide 1 start  */
+
+/*navbar*/
+#logo-img{
+    position: absolute;
+   
+    top: 10px;
+    left: 0px;
+    width: 480px; 
+    height: auto;
+    transition: transform 0s ease-in-out;
+}
+
+.nav-main-container{
+  
+  width: 400px;
+  
+  transition: transform 0s ease-in-out ;
+}
+
+.hidden {
+  transform: translateX(-10%) !important;
+  opacity: 0 !important;;
+}
+#nav-bg-img{
+    left:0px;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  max-width: 220px;
+  z-index: 9999;
+  filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
+  top: 50%;
+  transform: translate(0%, -50%);
+
+}
+
+svg {
+  position: fixed;
+  z-index: 10000;
+  top: 50%;
+  left:0px;
+  transform: translate(-62%,-50%);
+  width: 600px;
+  height: 500px;
+ 
+}
+
+#curve{
+  fill:transparent;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  fill:white;
+}
+
+/*navbar end*/
+
 .flex_container .slide1 {
     position: relative;
     background-color: #FFFFFF;
@@ -82,7 +143,7 @@ scroll-behavior: smooth !important;
     margin-top: 0.8em !important;
     position: absolute;
     top: 15%;
-    right: 18%;
+    right: -0%;
     transform: translateY(-35%);
     
 }
@@ -95,7 +156,7 @@ scroll-behavior: smooth !important;
     height: 48vh;
     width: auto;
     bottom: 6%;
-    left: 0%;
+    left: 20%;
 }
 
 
@@ -103,7 +164,7 @@ scroll-behavior: smooth !important;
 .slide1_p p{
     position: absolute;
     top: 37%;
-    right: 22%;
+    right: 0%;
     transform: translateY(-35%);
     font-family: "Raleway", sans-serif;
     font-style:normal;
@@ -127,8 +188,11 @@ scroll-behavior: smooth !important;
 
 .slide1_photoObject_container {
     position: absolute;
-    right: 22em;
-    top: -1.5em;
+    right: -5em;
+    top: -1em;
+    padding:0;
+    margin: 0;
+    z-index:11;
 }
 
 .slide1_photoObject_image {
@@ -145,8 +209,8 @@ scroll-behavior: smooth !important;
     width: 12.5em;
     height: 12.5em;
     border: none;
-    bottom:30%;
-    right:35%;
+    bottom:20%;
+    right:20%;
     outline: none;
     box-shadow: 0.5em 0.5em 8px rgba(0, 0, 0, 0.8);
     cursor: pointer;
@@ -918,61 +982,6 @@ scroll-behavior: smooth !important;
     display: block;
 }
 
-/*navbar*/
-#logo-img{
-    position: absolute;
-   
-    top: 10px;
-    left: 0px;
-    width: 480px; 
-    height: auto;
-    transition: transform 0s ease-in-out;
-}
-
-.nav-main-container{
-  
-  width: 400px;
-  transition: transform 0s ease-in-out ;
-}
-
-.hidden {
-  transform: translateX(-10%) !important;
-  opacity: 0 !important;;
-}
-#nav-bg-img{
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  max-width: 220px;
-  z-index: 9999;
-  filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
-  top: 50%;
-  transform: translate(0%, -50%);
-
-}
-
-svg {
-  position: fixed;
-  z-index: 10000;
-  top: 50%;
-  transform: translate(-62%,-50%);
-  width: 600px;
-  height: 500px;
- 
-}
-
-#curve{
-  fill:transparent;
-}
-
-.nav-links a {
-  text-decoration: none;
-  font-size: 1.5em;
-  font-weight: bold;
-  fill:white;
-}
-
-/*navbar end*/
 
 
 
