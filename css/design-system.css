@@ -1,0 +1,35 @@
+:root{
+        --navLinks-font-family: "Raleway", sans-serif;
+        --navLinks-font-size: 1.3em;
+        /* --navLinks-font-weight: 400; */
+        /* --navLinks-font-style: normal; */
+
+
+
+        --homepage-title-font-family: "Bebas Neue", sans-serif;
+        --homepage-title-size: 6.375em;
+        --homepage-title-weight:bold;
+        --homepage-title-style: normal;
+        --homepage-title-line-height: 122.4pt;
+
+
+        --homepage-para-font-family: "Raleway", sans-serif;
+        --homepage-para-size:2.25em;
+        --homepage-para-weight: 400;
+        --homepage-para-style: normal;
+        --homepage-para-line-height: line-height: 1.5em;
+
+
+        --homepage-button-font-family: "Raleway";
+        --homepage-button-size:48px;
+        --homepage-button-weight:bold;
+
+
+        --slides-paragraph-font-family: "Raleway";
+        --slides-paragraph-size: 1em;
+        --slides-paragraph-line-height:1.5em;
+        
+
+        --slides-
+
+    }
