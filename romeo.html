@@ -14,6 +14,34 @@
 
 	<div class="flex_container">
 
+		<!-- nav start -->
+		<nav style="position: absolute;">
+		    <div class="nav-main-container">
+		      <img id="logo-img" src="img/logo.png" alt="Logo">
+		      <img id="nav-bg-img" src="img/nav-background.png" alt="Navigation Background, A half cut of Camera Lens">
+		
+		      <div class="nav-link-container">
+		        <svg width="550" height="450">
+		          <path id="curve" d="M 280 100 A 180 180 0 0 1 460 420"></path>
+		          <text class="text">
+		            <textPath class="nav-links" href="#curve" startOffset="28%" spacing="20%">
+		              <a class="nav-link" href="http://example.com/home">Home</a>
+		              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+		              <a href="http://example.com/about">About</a>
+		              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+		              <a href="http://example.com/testimonials">Testimonials</a>
+		              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+		              <a href="http://example.com/faculty">Faculty</a>
+		              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+		            </textPath>
+		          </text>
+		        </svg>
+		      </div>
+		    </div>
+		  </nav>
+		<!-- nav end -->
+
+
 		<!-- slide 2 start-->
 		<div class="slide2">
 			<div class="slide2_leftCol">
@@ -506,6 +534,28 @@
 		    document.documentElement.scrollLeft += event.deltaY;
 
 		});
+
+		// js added by Jeevan
+		  document.addEventListener('DOMContentLoaded', () => {
+		  let lastScrollTop = 0;
+		  const navMainContainer = document.querySelector('.nav-main-container');
+
+		  window.addEventListener('scroll', () => {
+		    const scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+
+		    if (scrollTop > lastScrollTop) {
+		      // Scroll down
+		      navMainContainer.classList.add('hidden');
+		    } else {
+		      // Scroll up
+		      navMainContainer.classList.remove('hidden');
+		    }
+
+		    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+		    });
+		  });
 	</script>
+
+
 </body>
 </html>
