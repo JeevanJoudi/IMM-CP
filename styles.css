@@ -278,7 +278,7 @@ svg {
     padding: 20px !important;
 }
 
-.slide2_overlapText {
+.slide2_overlapText h2{
     text-align: left;
 }
 
@@ -293,7 +293,7 @@ svg {
     text-decoration: underline;
 }
 
-.slide2_h1 {
+.slide2_h1 h1{
     font-family: 'Raleway';
     src: url('font/Raleway-Bold.woff2') format('woff2'),
         url('font/Raleway-Bold.woff') format('woff');
@@ -307,7 +307,7 @@ svg {
 
 }
 
-.slide2_p {
+.slide2_p p{
     font-family: 'Raleway';
     font-size: 1em;
     line-height: 1.5em;
@@ -344,27 +344,28 @@ svg {
     box-sizing: border-box;
     padding: 40px 175px 0 175px !important;
     position: relative;
-
     order:3;
 }
 
 .slide3_header_container{
-    font-family: 'Bebas-Neue-Regular';
+    font-family: "Bebas Neue", sans-serif;
     width: 40%;
 }
 
-.slide3_header_1{
+.slide3_header_1 h1{
+   
     font-size: 2em;
     color: #595959;
 }
 
-.slide3_header_2{
+.slide3_header_2 h1{
+    
     font-size: 2.5em;
     color: #007F53;
 }
 
-.slide3_p {
-    font-family: 'Raleway-Medium';
+.slide3_p p{
+    font-family: "Raleway", sans-serif;
     font-size: 1em;
     line-height: 1.5em;
     padding: 20px 0 0 0 !important;
@@ -429,8 +430,8 @@ svg {
     height: auto;
 }
 
-.slide3_overlayTxt{
-    font-family: 'Bebas-Neue-Regular';
+.slide3_overlayTxt h2{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     color: #FFFFFF;
     position: absolute;
@@ -459,20 +460,20 @@ svg {
     display: block;
 }
 
-.slide4_header_1{
-    font-family: 'Bebas-Neue-Regular';
+.slide4_header_1 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     color: #595959;
 }
 
-.slide4_header_2{
-    font-family: 'Bebas-Neue-Regular';
+.slide4_header_2 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2.5em;
     color: #007F53;
 }
 
-.slide4_p{
-    font-family: 'Raleway-Medium';
+.slide4_p p{
+    font-family: "Raleway", sans-serif;
     font-size: 1em;
     line-height: 1.5em;
     padding: 20px 0 0 0 !important;
@@ -534,20 +535,22 @@ svg {
     padding: 0 0 10px 0 !important;
 }
 
-.slide4_portfolio_h1{
-    font-family: 'Raleway-Bold';
+.slide4_portfolio_h3 h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     color: #007F53;
     font-size: 1.25em;
 }
 
-.slide4_portfolio_h2{
-    font-family: 'Raleway-Regular';
+.slide4_portfolio_h4 h4{
+    font-family: "Raleway", sans-serif;
     color: #595959;
     font-size: 1em;
 }
 
-.slide4_bottomSection{
-    font-family: 'Raleway-Medium';
+.slide4_bottomSection p{
+    font-family: "Raleway", sans-serif;
+    
     font-size: 1em;
     line-height: 1.5em;
     color: #505050;
@@ -568,7 +571,8 @@ svg {
 }
 
 .slide4_cta{
-    font-family: 'Raleway-Bold';
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     background-color: #007F53;
     color: #FFFFFF;
     width: 250px;
@@ -612,14 +616,14 @@ svg {
     display: block;
 }
 
-.slide5_header_1{
-    font-family: 'Bebas-Neue-Regular';
+.slide5_header_1 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     color: #595959;
 }
 
-.slide5_header_2{
-    font-family: 'Bebas-Neue-Regular';
+.slide5_header_2 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2.5em;
     color: #007F53;
 }
@@ -652,15 +656,17 @@ svg {
 }
 
 
-.slide5_testimonails_header{
-    font-family: 'Raleway-Medium';
+.slide5_testimonails_header p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     font-size: 1.25em;
     line-height: 1.35em;
     color: #FFFFFF;
 }
 
-.slide5_testimonails_name{
-    font-family: 'Raleway-Bold';
+.slide5_testimonails_name p{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     font-size: 1.25em;
     color: #FFFFFF;
     text-align: right;
@@ -694,7 +700,8 @@ svg {
 }
 
 .slide5_cta{
-    font-family: 'Raleway-Bold';
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     background-color: #007F53;
     color: #FFFFFF;
     width: 250px;
@@ -728,20 +735,21 @@ svg {
     display: block;
 }
 
-.slide6_header_1{
-    font-family: 'Bebas-Neue-Regular';
+.slide6_header_1 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     color: #595959;
 }
 
-.slide6_header_2{
-    font-family: 'Bebas-Neue-Regular';
+.slide6_header_2 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2.5em;
     color: #007F53;
 }
 
-.slide6_p{
-    font-family: 'Raleway-Medium';
+.slide6_p p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     font-size: 1em;
     line-height: 1.5em;
     padding: 20px 0 0 0 !important;
@@ -768,14 +776,15 @@ svg {
     padding: 0 0 10px 0 !important;
 }
 
-.slide6_portfolio_h1{
-    font-family: 'Raleway-Bold';
+.slide6_professor_h2 h2{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     color: #007F53;
     font-size: 1.25em;
 }
 
-.slide6_portfolio_h2{
-    font-family: 'Raleway-Regular';
+.slide6_professor_h3 h3{
+    font-family: "Raleway", sans-serif;
     color: #595959;
     font-size: 1em;
     line-height: 1.25em;
@@ -819,7 +828,8 @@ svg {
 }
 
 .slide6_cta{
-    font-family: 'Raleway-Bold';
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     background-color: #007F53;
     color: #FFFFFF;
     width: 100%;
@@ -858,21 +868,22 @@ svg {
 
 
 
-.footer_header_1{
-    font-family: 'Bebas-Neue-Regular';
+.footer_header_1 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2em;
     color: #595959;
 }
 
-.footer_header_2{
-    font-family: 'Bebas-Neue-Regular';
+.footer_header_2 h1{
+    font-family: "Bebas Neue", sans-serif;
     font-size: 2.5em;
     color: #007F53;
     padding: 0 0 20px 0 !important;
 }
 
 .footer_downloadCta{
-    font-family: 'Raleway-Bold';
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     background-color: #007F53;
     color: #FFFFFF !important;
     width: 300px;
@@ -901,15 +912,16 @@ svg {
     flex: 1;
 }
 
-.footer_city{
-    font-family: 'Raleway-Bold';
+.footer_city p{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     color: #595959;
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
-.footer_address{
-    font-family: 'Raleway-Regular';
+.footer_address p{
+    font-family: "Raleway", sans-serif;
     color: #595959;
     font-size: 1em;
     line-height: 1.25em;
@@ -949,8 +961,9 @@ svg {
     height: auto;
 }
 
-.footer_desc{
-    font-family: 'Raleway-Medium';
+.footer_desc p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     font-size: 1em;
     line-height: 1.5em;
 
@@ -959,7 +972,8 @@ svg {
 }
 
 .footer_applyCta{
-    font-family: 'Raleway-Bold';
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
     background-color: #007F53;
     color: #FFFFFF !important;
     width: 300px;
