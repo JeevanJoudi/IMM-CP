@@ -6,30 +6,31 @@
 
 
 
-        --homepage-title-font-family: "Bebas Neue", sans-serif;
-        --homepage-title-size: 6.375em;
-        --homepage-title-weight:bold;
-        --homepage-title-style: normal;
-        --homepage-title-line-height: 122.4pt;
+        --slide1-title-font-family: "Bebas Neue", sans-serif;
+        --slide1-title-size: 6.375em;
+        --slide1-title-weight:bold;
+        --slide1-title-style: normal;
+        --slide1-title-line-height: 122.4pt;
 
 
-        --homepage-para-font-family: "Raleway", sans-serif;
-        --homepage-para-size:2.25em;
-        --homepage-para-weight: 400;
-        --homepage-para-style: normal;
-        --homepage-para-line-height: line-height: 1.5em;
+        --slide1-para-font-family: "Raleway", sans-serif;
+        --slide1-para-size:2.25em;
+        --slide1-para-weight: 400;
+        --slide1-para-style: normal;
+        --slide1-para-line-height: line-height: 1.5em;
 
 
-        --homepage-button-font-family: "Raleway";
-        --homepage-button-size:48px;
-        --homepage-button-weight:bold;
+        --slide1-button-font-family:"Raleway", sans-serif;
+        --slide1-button-size:48px;
+        --slide1-button-weight:bold;
 
 
-        --slides-paragraph-font-family: "Raleway";
-        --slides-paragraph-size: 1em;
-        --slides-paragraph-line-height:1.5em;
+        --slide2-overLapText-font-family:"Raleway", sans-serif;
+        --slide2-overLapText-size: 1.5em;
+        --slide2-overLapText-line-height:1.25em;
+        --slide2-overLapText-font-weight: bold;
         
 
-        --slides-
+        --slide2-
 
     }

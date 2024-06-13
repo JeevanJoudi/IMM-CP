@@ -259,7 +259,7 @@ svg {
     height: auto;
 }
 
-.slide2_overlapText_container {
+.slide2_overlapText_container h2{
     font-family: 'Raleway';
     src: url('font/Raleway-Bold.woff2') format('woff2'),
         url('font/Raleway-Bold.woff') format('woff');
