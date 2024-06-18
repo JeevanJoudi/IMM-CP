@@ -487,6 +487,9 @@ svg {
     z-index: 5;
 
 }
+.slide4_desc_container{
+    display: none;
+}
 .slide4_cardsContainer{
     display: flex;
     width: 100%;
