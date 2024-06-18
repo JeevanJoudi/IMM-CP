@@ -51,10 +51,10 @@ svg {
   position: fixed;
   z-index: 10000;
   top: 50%;
-  transform: translate(-62%,-50%);
+  transform: translate(10%,-50%);
   width: 600px;
   height: 500px;
- 
+ left:40%;
 }
 body {
   scrollbar-width: none;
@@ -67,6 +67,8 @@ body::-webkit-scrollbar {
 
 #curve{
   fill:transparent;
+  left:1000px;
+  
 }
 
 .nav-links a {

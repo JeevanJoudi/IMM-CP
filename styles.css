@@ -99,9 +99,9 @@ scroll-behavior: smooth !important;
 svg {
   position: fixed;
   z-index: 10000;
-  top: 50%;
+  top: 46%;
   left:0px;
-  transform: translate(-62%,-50%);
+  transform: translate(-46%,-50%);
   width: 600px;
   height: 500px;
  
