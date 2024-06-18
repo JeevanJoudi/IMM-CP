@@ -703,7 +703,7 @@ svg {
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 40px 175px 0 175px !important;
+    padding: 40px 175px 0 0px !important;
     position: relative;
 
     order: 6;
