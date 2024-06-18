@@ -874,6 +874,7 @@ svg {
     padding: 80px 0 0 0 !important;
     display: flex;
     flex-direction: row;
+    align-items: center;
     column-gap: 8%;
 }
 
