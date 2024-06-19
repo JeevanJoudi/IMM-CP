@@ -820,14 +820,14 @@ svg {
     order: 7;
     flex-direction: row !important;
     overflow: visible;
-    height: 100%;
+    height: calc(100vh - 1em);
 }
 
 .footer_leftCol{
     padding: 40px 0 0 175px !important;
 /*    background-color: red;*/
     width: 45%;
-    height: 100vh;
+    height: calc(100vh - 1em);
     display: block;
 }
 
@@ -893,7 +893,7 @@ svg {
     color: #FFFFFF;
     background: #1D1D1D;
     width: 55%;
-    height: 100vh;
+    height: calc(100vh - 1em);
     padding: 40px 40px 0 40px !important;
     position: relative;
 }
