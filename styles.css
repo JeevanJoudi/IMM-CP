@@ -652,7 +652,7 @@ svg {
 }
 
 
-.slide5_testimonails_header p{
+.slide5_testimonails_header p, .testimonial_desc p{
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 1.25em;
@@ -660,7 +660,7 @@ svg {
     color: #FFFFFF;
 }
 
-.slide5_testimonails_name p{
+.slide5_testimonails_name p .testimonial_person p{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1.25em;
