@@ -557,8 +557,8 @@
 		
 		container.addEventListener('wheel', (event) => {
 		    event.preventDefault() // prevent vertical scroll
+		    document.documentElement.scrollLeft += event.deltaX;
 		    document.documentElement.scrollLeft += event.deltaY;
-
 		});
 
 		// js added by Jeevan

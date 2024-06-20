@@ -18,7 +18,7 @@ body {
 
     margin: 0 !important;
     padding: 0 !important;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -592,11 +592,12 @@ svg {
 
 .slide4_photoObject_container {
     position: absolute !important;
-    top: 0 !important;
+    top: -60px !important;
     right: -50px !important;
 }
 
 .slide4_photoObject_image {
+    rotate: -90deg;
     width: 250px;
     height: auto;
 }
