@@ -1,0 +1,16 @@
+.testimonialspage_slide1{
+    width:fit-content !important;
+}
+.t1{
+    width:40% !important;
+}
+.t4, .t5{
+    background-color: #006341;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    padding: 40px !important;
+    width: 50%;
+
+    margin: 5% 0 0 10% !important;
+
+}
