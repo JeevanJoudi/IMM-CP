@@ -14,3 +14,20 @@
     margin: 5% 0 0 10% !important;
 
 }
+
+.c1{
+    display: flex !important;
+    column-gap: 5% !important;
+
+    align-items:flex-start !important;
+}
+
+
+.navContainer{
+    width: 400px !important;
+/*    background-color: red;*/
+}
+
+.testimonial_page1{
+    width: fit-content !important;
+}
