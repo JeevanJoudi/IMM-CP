@@ -625,30 +625,30 @@ svg {
 
 
 
-.c1{
+.c1, .c3, .c5{
     display: flex;
     column-gap: 5%;
 
     align-items:flex-start;
 }
 /* slide5_testimonails_1 */
-.t1{
+.t1, .t5, .t9{
     background-color: #006341;
     color: #FFFFFF;
     box-sizing: border-box;
     padding: 40px !important;
-    width: 40%;
+    width: 40% !important;
 
     margin: 2% 0 0 0 !important;
 
 }
 /* slide5_testimonails_2 */
-.t2{
+.t2, .t6, .t10{
     background-color: #006341;
     color: #FFFFFF;
     box-sizing: border-box;
     padding: 30px !important;
-    width: 60%;
+    width: 60% !important;
 
 }
 
@@ -670,7 +670,7 @@ svg {
     text-align: right;
 }
 /* slide5_testimonails_container2 */
-.c2{
+.c2, .c4, .c6{
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -678,12 +678,12 @@ svg {
     column-gap: 10px;
 }
 /* slide5_testimonails_3 */
-.t3{
+.t3, .t7, .t11{
     background-color: #006341;
     color: #FFFFFF;
     box-sizing: border-box;
     padding: 40px !important;
-    width: 50%;
+    width: 50% !important;
 
     margin: 5% 0 0 10% !important;
 
