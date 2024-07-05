@@ -1,16 +1,15 @@
 
 
-
-.flex_container .testimonial_page2, .flex_container .testimonial_page1, .flex_container .testimonial_page3   {
+.flex_container .testimonial_page2,  .flex_container .testimonial_page3   {
     background-color: #FFFFFF;
     color: #505050;
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 40px 0 0 75px !important;
+    padding: 40px 175px 0 175px !important;
     position: relative;
 
-    order: 4;
+    order: 6;
     flex-direction: column !important;
     overflow: visible;
 }
@@ -20,7 +19,7 @@
     color: #FFFFFF;
     box-sizing: border-box;
     padding: 40px !important;
-    width: 60% !important;
+    width: 40% !important;
     
     margin: 2% 0 0 10% !important;
     overflow-x: visible;
