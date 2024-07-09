@@ -5,10 +5,21 @@
     display: none !important;
 }*/
 
-.slide4 {
-    order: 2 !important;
+.flex_container .portfolio_slide1 {
+    background-color: #FFFFFF;
+    color: #505050;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 40px 0 0 50px !important;
+    position: relative;
 
+    order: 2;
+    flex-direction: column !important;
+    overflow: visible;
 }
+
+
 
 .flex_container .portfolio_slide2 {
     color: #505050;
