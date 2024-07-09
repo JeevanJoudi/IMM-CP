@@ -34,7 +34,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 40px 0 0 175px !important;
+    padding: 40px 300px 0 50px !important;
     position: relative;
 
     order: 6;
@@ -42,12 +42,12 @@
     overflow: visible;
 }
 
-.flex_container .portfolio_slide2 {
+.flex_container .faculty_slide2 {
     color: #505050;
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-    padding: 0 0 0 175px !important;
+    padding: 0 0 0 0 !important;
     position: relative;
 
     order: 3;
@@ -55,6 +55,7 @@
     flex-direction: row;
     overflow: visible;
     gap: 50px;
+    width: 50vw;
 }
 
 .portfolio_imageContainer {
@@ -139,9 +140,6 @@
     padding: 4px 0 0 0 !important;
 }
 
-.portfolio_slide2 {
-    width: 50vw !important;
-}
 
 @media (max-width:1150px){
 
