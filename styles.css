@@ -662,7 +662,7 @@ svg {
 }
 
 /* Added the class name testimonial personal and testimonial_desc to the homepage hmtl  */
-.slide5_testimonails_name p .testimonial_person p{
+.testimonial_person p{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 1.25em;
