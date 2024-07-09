@@ -1,19 +1,27 @@
 
 
-.flex_container .testimonial_page2,  .flex_container .testimonial_page3   {
+.flex_container .testimonial_page_2, .flex_container .testimonial_page_1, .flex_container .testimonial_page_3   {
     background-color: #FFFFFF;
     color: #505050;
     justify-content: flex-start;
     align-items: flex-start;
     box-sizing: border-box;
-    padding: 40px 175px 0 175px !important;
+    padding: 40px 300px 0 50px !important;
     position: relative;
 
     order: 6;
     flex-direction: column !important;
     overflow: visible;
 }
-
+.testimonial_page_headers{
+    width: 50%;
+    display: block;
+}
+.testimonialspage-x-offset{
+    all:unset;
+    padding: 40px 300px 0 50px !important;
+  
+}
 .t4 , .t8 , .t12 {
     background-color: #006341;
     color: #FFFFFF;
