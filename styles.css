@@ -670,13 +670,14 @@ svg {
     text-align: right;
 }
 /* slide5_testimonails_container2 */
-.c2, .c4, .c6{
+.c2{
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
-    column-gap: 10px;
+    column-gap: 0px;
 }
+
 /* slide5_testimonails_3 */
 .t3, .t7, .t11{
     background-color: #006341;
@@ -685,7 +686,7 @@ svg {
     padding: 40px !important;
     width: 50% !important;
 
-    margin: 5% 0 0 10% !important;
+    margin: 5% 0 0 5% !important;
 
 }
 
