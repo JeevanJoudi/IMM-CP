@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+  
+    
+  
+   
+}
+
+nav{
+    display:flex;
+}
+
+
+#logo-img {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 480px; 
+    height: auto;
+    transition: transform 0s ease-in-out;
+}
+
+
+
+
+#nav-bg-img {
+    position: relative;
+   
+    max-width: 220px;
+    rotate:90deg;
+    z-index: 9999;
+    filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
+    top: 0%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.nav-main-container {
+    width: 400px;
+    transform: translate(50%, -50%);
+    display: flex;
+    align-content: center;
+    justify-content: center; }
+
+    #nav-bg-img {
+    position: relative;
+    max-width: 230px;
+    rotate: 90deg;
+    z-index: 13999;
+    filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
+    top: 25%;
+    transform: translate(0%, -63%);}
+
+
+
+#curve {
+    fill: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    fill: white;
+}
+
+
+    </style>
+<div>
+        <nav>
+            <img id="logo-img" src="img/logo.png" alt="Logo">
+                    <div class="nav-main-container">
+                      
+                      <img id="nav-bg-img" src="img/nav-background.png" alt="Navigation Background, A half cut of Camera Lens">
+                
+                      <div class="nav-link-container">
+                        <svg width="550" height="450">
+                            <path id="curve" d="M 0 230 A 210 210 2 1 0 530 230"></path>                            <text class="text">
+                              <textPath
+                                class="nav-links"
+                                href="#curve"
+                                startOffset="5%"
+                              >                            <textPath class="nav-links" href="#curve" startOffset="12%" spacing="20%">
+                              <a class="nav-link" href="index.html">Home</a>
+                              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                              <a href="portfolio.html">Portfolio</a>
+                              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                              <a href="testimonials.html">Testimonials</a>
+                              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                              <a href="faculty.html">Faculty</a>
+                              <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+                            </textPath>
+                          </text>
+                        </svg>
+                      </div>
+                    </div>
+                  </nav>                 
+</div>
+
+    
+</body>
+</html>
