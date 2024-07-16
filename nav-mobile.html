@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+body {
+    margin: 0;
+   padding: 0;
+   height: 100%;
+  }
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+ 
+#logo-img{
+    position: absolute;
+   
+    top: 10px;
+    left: 0px;
+    width: 480px; 
+    height: auto;
+    transition: transform 0s ease-in-out;
+}
+
+.nav-main-container{
+  
+  width: 400px;
+  transition: transform 0s ease-in-out ;
+}
+
+.hidden {
+  transform: translateX(-10%) !important;
+  opacity: 0 !important;;
+}
+#nav-bg-img{
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  max-width: 220px;
+  z-index: 9999;
+  filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
+  top: 50%;
+  transform: translate(0%, -50%);
+
+}
+
+svg {
+  position: fixed;
+  z-index: 10000;
+  top: 50%;
+  transform: translate(10%,-50%);
+  width: 600px;
+  height: 500px;
+ left:40%;
+}
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#curve{
+  fill:transparent;
+  left:1000px;
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  fill:white;
+}
+
+    </style>
+<div>
+  <nav>
+    <img id="logo-img" src="img/logo.png" alt="Logo">
+    <div class="nav-main-container">
+      
+      <img id="nav-bg-img" src="img/nav-background.png" alt="Navigation Background, A half cut of Camera Lens">
+  
+      <div class="nav-link-container">
+      <svg width="550" height="450">
+        <path id="curve" d="M 280 100 A 180 180 0 0 1 280 460"></path>
+        <text class="text">
+        <textPath class="nav-links" href="#curve" startOffset="12%" spacing="20%">
+          <a class="nav-link" href="index.html">Home</a>
+          <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+          <a href="portfolio.html">Portfolio</a>
+          <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+          <a href="testimonials.html">Testimonials</a>
+          <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+          <a href="faculty.html">Faculty</a>
+          <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
+        </textPath>
+        </text>
+      </svg>
+      </div>
+    </div>
+    </nav>               
+</div>
+
+    
+</body>
+</html>
