@@ -77,12 +77,13 @@ scroll-behavior: smooth !important;
   
   width: 400px;
   
-  transition: transform 0s ease-in-out ;
+  transition: transform  0s ease-in-out ;
 }
 
 .hidden {
   transform: translateX(-10%) !important;
   opacity: 0 !important;;
+
 }
 #nav-bg-img{
     left:0px;
@@ -112,8 +113,19 @@ svg {
   fill:transparent;
 }
 
+.applynow_button a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.applynow_button a:visited{
+    text-decoration: none;
+    color: inherit;
+
+}
 .nav-links a {
   text-decoration: none;
+  
   font-size: 1.3em;
   
   font-family: "Raleway", sans-serif;
@@ -220,6 +232,9 @@ svg {
     cursor: pointer;
 }
 
+.applynow_button:hover {
+    transform: scale(1.05);
+}
 .applynow_button h3{
     color: #FFFFFF;
     text-wrap: wrap;
@@ -569,6 +584,10 @@ svg {
 
 }
 
+.slide4_bottomSection{
+    z-index:9;
+}
+
 .slide4_bottomSection .slide4_bottomSection_text:first-child{
     width: 450px;
     box-sizing: border-box;
@@ -584,6 +603,10 @@ svg {
     text-align: center;
     padding: 20px 20px !important;
     font-size: 1.5em;
+}
+.cta_button:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease;
 }
 
 .slide4_cta_container a{
