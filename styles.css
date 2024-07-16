@@ -234,6 +234,7 @@ svg {
 
 .applynow_button:hover {
     transform: scale(1.05);
+    transition: 0.5s ease;
 }
 .applynow_button h3{
     color: #FFFFFF;
