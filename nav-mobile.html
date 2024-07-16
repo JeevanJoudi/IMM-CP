@@ -7,18 +7,33 @@
 </head>
 <body>
     <style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --MainHeading: "Bebas Neue", sans-serif , 28px,  400, normal;
+}
+
+/*bebas*/
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
 
 body {
-    margin: 0;
-   padding: 0;
-   height: 100%;
-  }
+    color: #FFFFFF;
 
 
-::-webkit-scrollbar {
-  display: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-y: hidden;
 }
- 
+
+
+
+/* slide 1 start  */
+
+/*navbar*/
 #logo-img{
     position: absolute;
    
@@ -32,54 +47,65 @@ body {
 .nav-main-container{
   
   width: 400px;
-  transition: transform 0s ease-in-out ;
+  margin: 0 auto;
+  transition: transform  0s ease-in-out ;
 }
 
 .hidden {
   transform: translateX(-10%) !important;
   opacity: 0 !important;;
+
 }
 #nav-bg-img{
+    left:0px;
   position: fixed;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 220px;
   z-index: 9999;
   filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
-  top: 50%;
-  transform: translate(0%, -50%);
+  top: 0%;
+  transform: translate(0%, 0%);
+  transform: rotate(90deg);
 
 }
 
 svg {
   position: fixed;
   z-index: 10000;
-  top: 50%;
-  transform: translate(10%,-50%);
+  top: -15%;
+  left:-10%;
+  z-index: 10000;
+  transform: translate(0%,0%);
   width: 600px;
   height: 500px;
- left:40%;
-}
-body {
-  scrollbar-width: none;
-  -ms-overflow-style: none; 
-}
-
-body::-webkit-scrollbar {
-  display: none;
+  transform: rotate(90deg);
+ 
 }
 
 #curve{
   fill:transparent;
-  left:1000px;
-  
 }
 
+.applynow_button a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.applynow_button a:visited{
+    text-decoration: none;
+    color: inherit;
+
+}
 .nav-links a {
   text-decoration: none;
-  font-size: 1.5em;
-  font-weight: bold;
+  
+  font-size: 1.3em;
+  
+  font-family: "Raleway", sans-serif;
   fill:white;
+
+
 }
 
     </style>
