@@ -44,27 +44,26 @@
             opacity: 0 !important;
         }
 
-        #nav-bg-img{
-            left:0px;
+        #nav-bg-img-r{
             position: fixed;
-            margin: 0 auto;
-            padding: 0;
-            max-width: 220px;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            
+            width: 348px;
             z-index: 9999;
             filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
-            top: 0%;
-            transform: translate(0%, 0%);
-            transform: rotate(90deg);
         }
 
         svg {
             position: fixed;
             z-index: 10000;
-            top: 50%;
+            top: -150px;
             left: 50%;
-            transform: translate(-50%, -50%);
-            width: 600px;
-            height: 600px;
+            
+            transform: translate(-50%, -17%);
+            width: 468px;
+           
         }
 
         #curve {
@@ -89,8 +88,10 @@
         }
 
         .nav-link-container {
-            transform: rotate(90deg);
-            transform-origin: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
         }
     </style>
 </head>
@@ -98,13 +99,13 @@
 <div>
     <nav>
         <img id="logo-img" src="img/logo.png" alt="Logo">
-        <div class="nav-main-container">
-            <img id="nav-bg-img" src="img/nav-background.png" alt="Navigation Background, A half cut of Camera Lens">
+        <div class="nav-main-container ">
+            <img id="nav-bg-img-r" src="img/nav-background-rotated.png" alt="Navigation Background, A half cut of Camera Lens">
             <div class="nav-link-container">
-                <svg>
+                <svg viewBox="0 0 560 560">
                     <path id="curve" d="M 100 280 A 180 180 0 0 0 460 280"></path>
                     <text class="text">
-                        <textPath class="nav-links" href="#curve" startOffset="0%">
+                        <textPath class="nav-links" href="#curve" startOffset="13%">
                             <tspan><a class="nav-link" href="index.html">Home</a></tspan>
                             <tspan>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tspan>
                             <tspan><a class="nav-link" href="portfolio.html">Portfolio</a></tspan>
