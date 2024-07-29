@@ -519,6 +519,9 @@
 	},
 	"file_history":
 	[
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/faculty.css",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/index.html",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/styles.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/cleaned/intro2.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/cleaned/student_testimonials.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/cleaned/styles.css",
@@ -643,10 +646,7 @@
 		"/Users/romeodeguzmanii/Desktop/week3(ex2)/javascript.js",
 		"/Users/romeodeguzmanii/Desktop/week3/index.html",
 		"/Users/romeodeguzmanii/Desktop/week3/javascript.js",
-		"/Users/romeodeguzmanii/Documents/IMM/1526-ClientSide/week-2/index.html",
-		"/Users/romeodeguzmanii/Documents/IMM/1526-ClientSide/week-2/JS/javascript.js",
-		"/Users/romeodeguzmanii/Documents/IMM/1526-ClientSide/week-2/JS/my-first-script.js",
-		"/Applications/MAMP/htdocs/1531/romeo-deguzman-e1-1531/romeo-deguzman-e1-1531.php"
+		"/Users/romeodeguzmanii/Documents/IMM/1526-ClientSide/week-2/index.html"
 	],
 	"find":
 	{
@@ -664,6 +664,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"faculty_row3",
+			"faculty_name",
+			"faculty_bio",
+			"faculty_name",
+			"border",
+			"faculty_row2",
 			"hideOnMobile",
 			"showOnMobile",
 			"show",
@@ -785,13 +791,7 @@
 			"col",
 			"portfolio_col1",
 			"porfolio_desc",
-			"hover",
-			"--bebasFontWeight",
-			"intro_container",
-			"intro2_col1",
-			"width90",
-			"dito",
-			"intro2_container"
+			"hover"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -869,7 +869,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 68.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -91,6 +91,9 @@
 	width: 25%;
 	min-width: 150px;
 	max-width: 300px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 .faculty_row2 div img {
@@ -113,7 +116,7 @@
 
 .faculty_row3 {
 	width: 100%;
-	padding: 40px 0 0 0;
+	padding: 0 0 0 0;
 	position: relative;
 }
 
@@ -143,7 +146,36 @@
 }
 
 .border {
-	border: 1px solid #dedede
+	border: 1px solid #dedede;
+}
+
+.faculty_name {
+	all: unset !important;
+	padding: 10px 0 0 0 !important;
+}
+
+.faculty_name h1 {
+	font-family: var(--ralewayFontFam);
+	font-optical-sizing: var(--ralewayFontOptical);
+	font-weight: 700;
+	font-style: var(--ralewayFontStyle);
+	color: #007f53;
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+.faculty_bio {
+	all: unset !important;
+}
+
+.faculty_bio p {
+	font-family: var(--ralewayFontFam);
+	font-optical-sizing: var(--ralewayFontOptical);
+	font-weight: 400;
+	font-style: var(--ralewayFontStyle);
+	color: var(--grayFont);
+	font-size: 1em;
+	line-height: 1em;
 }
 
 @media only screen and (max-width: 1024px) {
