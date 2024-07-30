@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			color: #FFFFFF;
+			width: 100vw;
+			height: 100vh;
+		}
+
+		.flex_container{
+			width: 100%;
+			height: 100%;
+
+			display: flex;
+
+/*			overflow-x: scroll;
+			scroll-snap-type: x mandatory;
+			overflow-y: hidden;
+			scroll-behavior: smooth !important;*/
+		}
+
+		.flex_container div{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100vw;
+/*			width: calc(100vw - 100px);*/
+			height: 100vh;
+			scroll-snap-align: start !important;
+/*			scroll-margin-left: 100px;*/
+/*			to enable width 100%*/
+			flex: none;
+			width: 100vw;
+			height: 100vh;
+		}
+
+		.flex_container div:nth-child(1){
+			background-color: red;
+		}
+
+		.flex_container div:nth-child(2){
+			background-color: green;
+		}
+
+		.flex_container div:nth-child(3){
+			background-color: yellow;
+		}
+
+
+	</style>
+</head>
+<body class="bodyhan">
+
+	<div class="flex_container">
+		<div><h1>Sections</h1></div>
+		<div><h1>Section2</h1></div>
+		<div><h1>Section3</h1></div>
+	</div>
+
+	<script>
+
+	  	const container = document.querySelector('.flex_container');
+		
+		container.addEventListener('wheel', (event) => {
+		    event.preventDefault() // prevent vertical scroll
+		    document.documentElement.scrollLeft += event.deltaY;
+
+		});
+	</script>
+</body>
+</html>
