@@ -1,0 +1,14 @@
+.width_200vw {
+	width: 230vw;
+}
+
+.portfolio_Logo {
+	width: 30vw;
+	background: red;
+}
+
+
+
+.width_200vw .portfolio_container{
+	padding: 0;
+}
