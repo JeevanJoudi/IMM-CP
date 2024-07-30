@@ -528,6 +528,7 @@ svg {
 }
 
 
+
 @media only screen and (min-width: 600px){
 .mobile-nav{
 visibility: hidden;
@@ -539,8 +540,6 @@ visibility: hidden;
       visibility: hidden;
     }
   }
-
-
 
 
 
