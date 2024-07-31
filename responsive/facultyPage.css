@@ -52,4 +52,15 @@
 	.faculty_row2 div:nth-child(6) {
 		margin-top: 0;
 	}
+
+	.faculty_photoObject {
+	    position: absolute !important;
+	    top: 0;
+	    right: 0%;
+	    width: 15%;
+	    min-width: 15%;
+	    max-width: 226px;
+	    height: auto;
+	}
+
 }
