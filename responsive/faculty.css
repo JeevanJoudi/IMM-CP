@@ -152,6 +152,8 @@
 .faculty_name {
 	all: unset !important;
 	padding: 10px 0 0 0 !important;
+	width: 100%;
+	max-width: 300px;
 }
 
 .faculty_name h1 {
@@ -229,7 +231,7 @@
 	.faculty_row2 div {
 		width: 100%;
 		max-width: 100%;
-		min-width: 100%;
+		min-width: 300px !important;
 		display: flex;
 		justify-content: center;
 		align-items: center;
