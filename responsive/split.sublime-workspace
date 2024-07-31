@@ -483,211 +483,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "faculty.html",
-			"settings":
-			{
-				"buffer_size": 10801,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					3,
-					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAA8ikAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					10,
-					1,
-					"insert",
-					{
-						"characters": "Faculy"
-					},
-					"BwAAAIQAAAAAAAAAhQAAAAAAAAAAAAAAhQAAAAAAAACFAAAAAAAAAAkAAABQb3J0Zm9saW+FAAAAAAAAAIYAAAAAAAAAAAAAAIYAAAAAAAAAhwAAAAAAAAAAAAAAhwAAAAAAAACIAAAAAAAAAAAAAACIAAAAAAAAAIkAAAAAAAAAAAAAAIkAAAAAAAAAigAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAhAAAAAAAAACNAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					11,
-					1,
-					"left_delete",
-					null,
-					"AQAAAIkAAAAAAAAAiQAAAAAAAAABAAAAeQ",
-					"AQAAAAAAAAABAAAAigAAAAAAAACKAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					12,
-					1,
-					"insert",
-					{
-						"characters": "ty"
-					},
-					"AgAAAIkAAAAAAAAAigAAAAAAAAAAAAAAigAAAAAAAACLAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAiQAAAAAAAACJAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					20,
-					1,
-					"insert",
-					{
-						"characters": "\n\n"
-					},
-					"BQAAAL8CAAAAAAAAwAIAAAAAAAAAAAAAwAIAAAAAAADBAgAAAAAAAAAAAADBAgAAAAAAAMICAAAAAAAAAAAAAMICAAAAAAAAwwIAAAAAAAAAAAAAwAIAAAAAAADAAgAAAAAAAAEAAAAJ",
-					"AQAAAAAAAAABAAAAvwIAAAAAAAC/AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					21,
-					1,
-					"paste",
-					null,
-					"AQAAAMECAAAAAAAAAwMAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAwgIAAAAAAADCAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					26,
-					1,
-					"cut",
-					null,
-					"AQAAAMACAAAAAAAAwAIAAAAAAAABAAAACg",
-					"AQAAAAAAAAABAAAAwAIAAAAAAADAAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					31,
-					1,
-					"insert",
-					{
-						"characters": "facu"
-					},
-					"BgAAAO4CAAAAAAAA7wIAAAAAAAAAAAAA7wIAAAAAAADvAgAAAAAAAA0AAABwb3J0Zm9saW9QYWdl9gIAAAAAAAD2AgAAAAAAAAEAAAAJ7wIAAAAAAADwAgAAAAAAAAAAAADwAgAAAAAAAPECAAAAAAAAAAAAAPECAAAAAAAA8gIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA7gIAAAAAAAD7AgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					32,
-					1,
-					"insert_completion",
-					{
-						"completion": "faculty",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "faculty"
-					},
-					"AgAAAO4CAAAAAAAA7gIAAAAAAAAEAAAAZmFjde4CAAAAAAAA9QIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA8gIAAAAAAADyAgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					35,
-					1,
-					"insert",
-					{
-						"characters": "Page"
-					},
-					"BAAAAPUCAAAAAAAA9gIAAAAAAAAAAAAA9gIAAAAAAAD3AgAAAAAAAAAAAAD3AgAAAAAAAPgCAAAAAAAAAAAAAPgCAAAAAAAA+QIAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAA9QIAAAAAAAD1AgAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		},
-		{
-			"file": "portfolioPage.css",
-			"settings":
-			{
-				"buffer_size": 3572,
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-			]
-		},
-		{
-			"file": "facultyPage.css",
-			"settings":
-			{
-				"buffer_size": 26,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			},
-			"undo_stack":
-			[
-				[
-					13,
-					1,
-					"insert",
-					{
-						"characters": "body"
-					},
-					"BAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAABAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"insert",
-					{
-						"characters": " "
-					},
-					"AQAAAAQAAAAAAAAABQAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"insert_snippet",
-					{
-						"contents": "{$0}"
-					},
-					"AQAAAAUAAAAAAAAABwAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABQAAAAAAAAAFAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"run_macro_file",
-					{
-						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
-					},
-					"AwAAAAYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAAIAAAAAAAAAAAAAAAHAAAAAAAAAAgAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAABgAAAAAAAAAGAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					17,
-					1,
-					"insert",
-					{
-						"characters": "ba"
-					},
-					"AgAAAAgAAAAAAAAACQAAAAAAAAAAAAAACQAAAAAAAAAKAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					18,
-					1,
-					"insert_completion",
-					{
-						"completion": "background: $0;",
-						"format": "snippet",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "background"
-					},
-					"AgAAAAgAAAAAAAAACAAAAAAAAAACAAAAYmEIAAAAAAAAABUAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAACgAAAAAAAAAKAAAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					19,
-					1,
-					"insert",
-					{
-						"characters": "red"
-					},
-					"AwAAABQAAAAAAAAAFQAAAAAAAAAAAAAAFQAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABcAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFAAAAAAAAAAUAAAAAAAAAAAAAAAAAPC/"
-				]
-			]
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -732,17 +527,19 @@
 	},
 	"file_history":
 	[
-		"/Users/romeodeguzmanii/Documents/Mirror/responsive/portfolio.html",
-		"/Users/romeodeguzmanii/Documents/Mirror/responsive/portfolioPage.css",
-		"/Users/romeodeguzmanii/Documents/Mirror/responsive/faculty.css",
-		"/Users/romeodeguzmanii/Documents/Mirror/responsive/portfolio.css",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/index.html",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/faculty.html",
 		"/Users/romeodeguzmanii/Documents/Mirror/responsive/styles.css",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/facultyPage.css",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/faculty.css",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/portfolioPage.css",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/portfolio.html",
+		"/Users/romeodeguzmanii/Documents/Mirror/responsive/portfolio.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/responsive/footer.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/responsive/intro2.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/responsive/reset.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/responsive/slide4.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/responsive/student_testimonials.css",
-		"/Users/romeodeguzmanii/Documents/Mirror/responsive/index.html",
 		"/Users/romeodeguzmanii/Documents/Mirror/cleaned/intro2.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/cleaned/student_testimonials.css",
 		"/Users/romeodeguzmanii/Documents/Mirror/cleaned/styles.css",
@@ -857,9 +654,7 @@
 		"/Users/romeodeguzmanii/Desktop/clientProject/v1.html",
 		"/Users/romeodeguzmanii/Desktop/clientProject/horizontal/horizontal.css",
 		"/Users/romeodeguzmanii/Desktop/index.html",
-		"/Users/romeodeguzmanii/Documents/IMM/sem1/1511-WebDesign/Assignment/DeGuzmanII-Romeo-a04/styles.css",
-		"/Users/romeodeguzmanii/Desktop/horizontal/horizontal.css",
-		"/Users/romeodeguzmanii/Desktop/horizontal/horizontal.html"
+		"/Users/romeodeguzmanii/Documents/IMM/sem1/1511-WebDesign/Assignment/DeGuzmanII-Romeo-a04/styles.css"
 	],
 	"find":
 	{
@@ -877,6 +672,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"img",
+			"faculty_row2",
+			"name",
+			"facultyPage",
+			"facultyPage'",
+			"flex_container",
+			"portfolio",
 			"portfolioPage_photoObject2",
 			"showOnMobile",
 			"additionalPadding",
@@ -997,14 +799,7 @@
 			"testimonails_row1",
 			"testimonials_container",
 			"testimonails_content",
-			"1152px",
-			"item_1",
-			"testimonial_name",
-			"testimonails_content",
-			"padding",
-			"body",
-			"html",
-			"body"
+			"1152px"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1012,6 +807,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"faculty",
 			"portfolioPageWidth",
 			"",
 			"faculty",
@@ -1030,104 +826,11 @@
 		{
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "faculty.html",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10801,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								761,
-								761
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		},
 		{
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "portfolioPage.css",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3572,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								641,
-								641
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 548.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "facultyPage.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1207,7 +910,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
