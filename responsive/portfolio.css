@@ -75,11 +75,9 @@
 
 .portfolio_ctaMobile {
 	padding: 40px 0 0 0;
-	display: flex;
+	display: none;
 	justify-content: center;
 }
-
-
 
 .portfolio_row2 {
 	width: 100%;
@@ -210,8 +208,8 @@
 
 	.portfolio_row2 div img {
 		width: 100%;
-		min-width: 100%;
-		max-width: 100%;
+		min-width: 300px;
+		max-width: 300px;
 	}
 
 	.portfolio_row3 {
@@ -220,6 +218,10 @@
 		bottom: 0;
 		padding: 40px 0 40px 0;
 		width: 100%;
+	}
+
+	.portfolio_ctaMobile {
+		display: flex;
 	}
 
 	.portfolio_photoObject {

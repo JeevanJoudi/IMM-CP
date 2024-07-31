@@ -218,10 +218,12 @@
 
 	.faculty_row2 {
 		display: flex;
-		justify-content: center;
+		justify-content: center !important;
+		align-items: center !important;
 		flex-direction: column;
 		row-gap: 40px;
 		padding: 40px 0 0 0;
+		width: 100%;
 	}
 
 	.faculty_row2 div {
@@ -230,6 +232,7 @@
 		min-width: 100%;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 	}
 
 
@@ -246,10 +249,12 @@
 		margin-top: 0;
 	}
 
+
+
 	.faculty_row2 div img {
 		width: 100%;
-		min-width: 100%;
-		max-width: 100%;
+		min-width: 300px;
+		max-width: 300px;
 	}
 
 	.faculty_row3 {

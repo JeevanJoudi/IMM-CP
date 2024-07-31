@@ -19,32 +19,11 @@
 
 	<div class="flex_container width_200vw">
 
-		<div class="portfolio_Logo">
+		<!-- camera nav and logo -->
+		<div class="portfolioPage_Logo">
 			<div class="logo_container">
-				<img class="acLogo" src="img/logo.png">
-				<div class="icon_modalcontainer">
-
-					<div class="modal hide" id="modal">
-						<h1 class="modal_h1">
-							Welcome to the Interactive Media Management Program Website
-						</h1>
-						<p class="modal_p">
-							Navigate through our site effortlessly with horizontal scrolling to discover the vibrant world of our program. Here's a brief guide to help you explore: <br> <br>
-							<span>Student Portfolios</span>: Browse the impressive projects and works of our talented students. Each portfolio showcases unique skills and creativity.
-							<br><br>
-							<span>Testimonials:</span> Read inspiring stories and feedback from our students and alumni, sharing their experiences and successes within the program.
-							<br><br>
-							<span>Professors:</span> Meet our esteemed faculty members who bring a wealth of knowledge and industry experience to the classroom.
-							<br><br>
-							<span>Contact Page:</span> Have questions or need more information? Reach out to us via the contact page, and we’ll be happy to assist you.
-							<br><br>
-							Use the horizontal scroll feature to navigate smoothly through each section and get a comprehensive look at what our program has to offer. 
-						</p>
-					</div> 
-
-					<img class="infoIcon" id="infoIcon" src="img/circle-info-solid.svg" onclick="modalToggle()">
-
-					<img class="xIcon hide" id="xIcon" src="img/circle-xmark-solid.svg" onclick="modalToggle()">
+				<div>
+					<img class="acLogo" src="img/logo.png">
 				</div>
 			</div>
 			<!-- camera navbar -->
@@ -96,55 +75,90 @@
 						</nav>
 			<!-- camera navbar -->
 		</div>
+		<!-- camera nav and logo -->
 
-
-
-		<!-- portfolio -->
-		<div class="portfolio_container">
+		<!-- portfolio pieces starts here -->
+		<div class="portfolio_container expandBeforeMobile">
 
 			<div class="portfolio_row1">
 				<div class="porfolio_desc">
 					<h1 class="headline1">IMM</h1>
 					<h1 class="headline2">STUDENT'S WORK</h1>
-					<p class="desc">In the one-year Interactive Media Management Ontario College Graduate Certificate program, you develop the hands-on skills to plan and develop websites, online media and dynamic content. While learning industry standard practices, you gain the solid foundation in interactive media that you need to further your career in today's dynamic job market.</p>
-					<a class="hideOnMobile" href="">
-						<div class="viewMore">VIEW MORE</div>
-					</a>
+					<p class="desc additionalPadding">In the one-year Interactive Media Management Ontario College Graduate Certificate program, you develop the hands-on skills to plan and develop websites, online media and dynamic content. While learning industry standard practices, you gain the solid foundation in interactive media that you need to further your career in today's dynamic job market.</p>
 				</div>
 				<!-- 2 images -->
 			</div>
 
 			<div class="portfolio_row2">
 					<div>
-						<img src="img/slide4_portfolio1.png">
+						<img class="portfolioPage_img" src="img/slide4_portfolio1.png">
 					</div>
 					<div>
-						<img src="img/slide4_portfolio2.png">
+						<img class="portfolioPage_img" src="img/slide4_portfolio2.png">
 					</div>
 					<div>
-						<img src="img/slide4_portfolio3.png">
+						<img class="portfolioPage_img" src="img/slide4_portfolio3.png">
 					</div>
 					<div>
-						<img src="img/slide4_portfolio4.png">
+						<img class="portfolioPage_img" src="img/slide4_portfolio4.png">
 					</div>
 			</div>
 
-			<div class="portfolio_row3">
+			<div class="portfolio_row3 portfolioPage">
 				<p class="desc">
 					Throughout the program, as you apply your skills on solo projects and team-based applications for a wide variety of users and audiences, you may deal with regional, national and international clients.
 				</p>
-				<div class="portfolio_ctaMobile">
-					<a class="showOnMobile" href="">
-						<div class="viewMore">VIEW MORE</div>
-					</a>
-				</div>
 			</div>
 
 			<div class="portfolio_photoObject">
 				<img src="img/slide4_photoObject.png">
 			</div>
 		</div>
-		<!-- portfolio -->
+		<!-- portfolio pieces starts here -->
+
+		<!-- portfolio piece 2 -->
+		<div class="portfolio_container2">
+			<div class="portfolio_container2_items">
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/01.jpg">
+					</div>
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/02.jpg">
+					</div>
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/04.jpg">
+					</div>
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/03.jpg">
+					</div>
+			</div>
+		</div>
+		<!-- portfolio piece 2 -->
+
+		<!-- portfolio piece 3 -->
+		<div class="portfolio_container3">
+			<div class="portfolio_container3_items">
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/05.jpg">
+					</div>
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/06.jpg">
+					</div>
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/07.jpg">
+					</div>
+					<div>
+						<img class="portfolioPage_img" src="img/portfolio/08.jpg">
+					</div>
+
+					<div class="portfolio_row3 portfolioPage showOnMobile">
+						<p class="desc">
+							Throughout the program, as you apply your skills on solo projects and team-based applications for a wide variety of users and audiences, you may deal with regional, national and international clients.
+						</p>
+					</div>
+			</div>
+		</div>
+		<!-- portfolio piece 3 -->
 
 		<!-- footer -->
 		<div class="footer">
@@ -257,6 +271,7 @@
 			</div>
 		</div>
 		<!-- footer -->
+
 	</div>
 
 	<script>
