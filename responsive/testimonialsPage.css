@@ -132,6 +132,26 @@ body.portfolioPage_body,
 
 }
 
+@media only screen and (max-width: 1024px) {
+
+	.flex_container.TestimonialsPageWidth {
+		width: 525vw !important;
+	}
+
+	.testimonials_container.testimonialsPage {
+		width: 100vw;
+	}
+
+	.testimonials_container.testimonialsPage2 {
+		width: 100vw;
+	}
+
+	.testimonials_container.testimonialsPage3 {
+		width: 100vw;
+	}
+
+}
+
 @media only screen and (max-width: 600px) {
 
 	.flex_container.TestimonialsPageWidth {
