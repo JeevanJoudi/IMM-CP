@@ -129,9 +129,9 @@
 					<div class="applyNow_container">
 
 						<div class="applyNow_circle">
-							<h1 class="applyNow_txt">
+							<a href="https://www.algonquincollege.com/mediaanddesign/program/imm/#apply-now" class="applyNow_txt">
 								Apply Now
-							</h1>
+							</a>
 						</div>
 						
 					</div>
@@ -164,7 +164,7 @@
 							</div>
 					</div>
 
-					<div class="title" style="">
+					<div class="title">
 						<h2>Start with Basics and<br class="hideOnMobile"> Accelerate.</h2>
 							<div class="green_container">
 								<p>
@@ -222,7 +222,7 @@
 					Throughout the program, as you apply your skills on solo projects and team-based applications for a wide variety of users and audiences, you may deal with regional, national and international clients.
 				</p>
 				<div class="portfolio_ctaMobile">
-					<a href="">
+					<a href="portfolio.html">
 						<div class="viewMore">VIEW MORE</div>
 					</a>
 				</div>
@@ -406,7 +406,7 @@
 
 				<!-- item2 -->
 				<div class="testimonial_item cta_container">
-					<a href="">
+					<a href="testimonials.html">
 						<div class="viewMore">VIEW MORE</div>
 					</a>
 				</div>
@@ -480,7 +480,7 @@
 			</div>
 
 			<div class="faculty_row3">
-				<a href="">
+				<a href="faculty.html" >
 					<div class="viewMore">VIEW ALL<br class="hideOnMobile"> FACULTY</div>
 				</a>
 			</div>
@@ -608,65 +608,96 @@
 
 
 <script>
-	function modalToggle() {
-	   var infoIcon = document.getElementById("infoIcon");
-	   infoIcon.classList.toggle("hide");
+function modalToggle() {
+  var infoIcon = document.getElementById("infoIcon");
+  infoIcon.classList.toggle("hide");
 
-	   var xIcon = document.getElementById("xIcon");
-	   xIcon.classList.toggle("show");
+  var xIcon = document.getElementById("xIcon");
+  xIcon.classList.toggle("show");
 
-	   var modal = document.getElementById("modal");
-	   modal.classList.toggle("show");
-	}
+  var modal = document.getElementById("modal");
+  modal.classList.toggle("show");
+}
 
-	container = document.querySelector('.flex_container');
+const container = document.querySelector('.flex_container');
+const navMainContainer = document.querySelector('.nav-main-container');
+const navMainContainerMobile = document.querySelector('.nav-main-container-m');
 
-	function scrollFunction(x) {
-	  if (x.matches) { // If media query matches
-	    // document.body.style.backgroundColor = "yellow";
-	    container.addEventListener('wheel', (event) => {
-	      event.preventDefault();
-	      // document.documentElement.scrollTop += event.deltaX;
-	      document.documentElement.scrollTop += event.deltaY;
-	    });
-	  } else {
-	    // document.body.style.backgroundColor = "pink";
-	    container.addEventListener('wheel', (event) => {
-	      event.preventDefault();
-	      document.documentElement.scrollLeft += event.deltaX;
-	      document.documentElement.scrollLeft += event.deltaY;
-	    });
-	  }
-	}
+function scrollFunction(x) {
+  if (x.matches) { // If media query matches
+    container.addEventListener('wheel', (event) => {
+      event.preventDefault();
+      document.documentElement.scrollTop += event.deltaY;
+    });
+  } else {
+    container.addEventListener('wheel', (event) => {
+      event.preventDefault();
+      document.documentElement.scrollLeft += event.deltaX;
+      document.documentElement.scrollLeft += event.deltaY;
+    });
+  }
+}
 
-	// Create a MediaQueryList object
-	var x = window.matchMedia("(max-width: 600px)");
-	// Call listener function at run time
-	scrollFunction(x);
-	// Attach listener function on state changes
-	x.addEventListener("change", function() {
-	  scrollFunction(x);
-	});
+// Create a MediaQueryList object
+var x = window.matchMedia("(max-width: 600px)");
 
-	// js added by Jeevan
-	  document.addEventListener('DOMContentLoaded', () => {
-	  let lastScrollTop = 0;
-	  const navMainContainer = document.querySelector('.nav-main-container');
+// Call listener function at run time
+scrollFunction(x);
 
-	  window.addEventListener('scroll', () => {
-	    const scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+// Attach listener function on state changes
+x.addEventListener("change", function() {
+  scrollFunction(x);
+});
 
-	    if (scrollTop > lastScrollTop) {
-	      // Scroll down
-	      navMainContainer.classList.add('hidden');
-	    } else {
-	      // Scroll up
-	      navMainContainer.classList.remove('hidden');
-	    }
+// JavaScript added by Jeevan
+document.addEventListener('DOMContentLoaded', () => {
+  let lastScrollTop = 0;
+  let hideTimeout;
 
-	    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-	    });
-	  });
+  function hideNav() {
+    navMainContainer.classList.add('hidden');
+    navMainContainerMobile.classList.add('hidden');
+  }
+
+  function showNav() {
+    navMainContainer.classList.remove('hidden');
+    navMainContainerMobile.classList.remove('hidden');
+    resetHideTimeout(); // Reset the timeout when showing the nav
+  }
+
+  function resetHideTimeout() {
+    // Clear any existing timeout
+    if (hideTimeout) {
+      clearTimeout(hideTimeout);
+    }
+    // Set a new timeout to hide the navigation bar after 4 seconds of inactivity
+    hideTimeout = setTimeout(hideNav, 4000);
+  }
+
+  // Hide navigation on initial load if it's a mobile device
+  if (x.matches) {
+    hideNav();
+  }
+
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+      // Scrolling down
+      showNav(); // Ensure nav is visible when scrolling up
+      navMainContainer.classList.add('hidden');
+      navMainContainerMobile.classList.add('hidden');
+    } else {
+      // Scrolling up
+      showNav(); // Ensure nav is visible
+    }
+
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+  });
+
+  // Initial call to reset hide timeout on page load
+  resetHideTimeout();
+});
 </script>
 
 </body>
