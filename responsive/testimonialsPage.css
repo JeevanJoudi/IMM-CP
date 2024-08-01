@@ -41,9 +41,9 @@ body.portfolioPage_body,
 
 
 @media only screen and (max-width: 1400px) {
-	
+
 	.flex_container.TestimonialsPageWidth {
-		width: 525vw !important;
+		width: 425vw !important;
 	}
 
 	.testimonialsPage2 .testimonails_row1 .testimonial_item:nth-child(1) {
@@ -65,10 +65,6 @@ body.portfolioPage_body,
 	}
 
 	.testimonials_container.testimonialsPage3{
-		width: 100vw !important;
-	}
-
-	.testimonials_container.testimonialsPag2{
 		width: 100vw !important;
 	}
 
