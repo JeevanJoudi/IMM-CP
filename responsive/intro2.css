@@ -208,8 +208,8 @@
 
 	.intro2_photoObject_mobile {
 		position: absolute;
-		top: 0;
-		right: -10px;
+		top: -30%;
+		right: 70vw;
 		width: 125px;
 		max-width: 125px;
 
