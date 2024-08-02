@@ -651,56 +651,10 @@ x.addEventListener("change", function() {
   scrollFunction(x);
 });
 
-// JavaScript added by Jeevan
-document.addEventListener('DOMContentLoaded', () => {
-  let lastScrollTop = 0;
-  let hideTimeout;
 
-  function hideNav() {
-    navMainContainer.classList.add('hidden');
-    navMainContainerMobile.classList.add('hidden');
-  }
 
-  function showNav() {
-    navMainContainer.classList.remove('hidden');
-    navMainContainerMobile.classList.remove('hidden');
-    resetHideTimeout(); // Reset the timeout when showing the nav
-  }
-
-  function resetHideTimeout() {
-    // Clear any existing timeout
-    if (hideTimeout) {
-      clearTimeout(hideTimeout);
-    }
-    // Set a new timeout to hide the navigation bar after 4 seconds of inactivity
-    hideTimeout = setTimeout(hideNav, 4000);
-  }
-
-  // Hide navigation on initial load if it's a mobile device
-  if (x.matches) {
-    hideNav();
-  }
-
-  window.addEventListener('scroll', () => {
-    const scrollTop = window.pageXOffset || document.documentElement.scrollTop;
-
-    if (scrollTop > lastScrollTop) {
-      // Scrolling down
-      showNav(); // Ensure nav is visible when scrolling up
-      navMainContainer.classList.add('hidden');
-      navMainContainerMobile.classList.add('hidden');
-    } else {
-      // Scrolling up
-      showNav(); // Ensure nav is visible
-    }
-
-    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-  });
-
-  // Initial call to reset hide timeout on page load
-  resetHideTimeout();
-});
 </script>
+<script src="js/navigation.js"> </script>
 
 </body>
 </html>

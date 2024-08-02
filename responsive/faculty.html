@@ -319,26 +319,9 @@
 		  scrollFunction(x);
 		});
 
-		// js added by Jeevan
-		  document.addEventListener('DOMContentLoaded', () => {
-		  let lastScrollTop = 0;
-		  const navMainContainer = document.querySelector('.nav-main-container');
-
-		  window.addEventListener('scroll', () => {
-		    const scrollTop = window.pageXOffset || document.documentElement.scrollTop;
-
-		    if (scrollTop > lastScrollTop) {
-		      // Scroll down
-		      navMainContainer.classList.add('hidden');
-		    } else {
-		      // Scroll up
-		      navMainContainer.classList.remove('hidden');
-		    }
-
-		    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-		    });
-		  });
+		
 	</script>
+	<script src="js/navigation.js"> </script>
 
 </body>
 </html>
