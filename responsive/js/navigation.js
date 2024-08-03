@@ -12,38 +12,48 @@ document.addEventListener('DOMContentLoaded', () => {
           navMainContainerMobile.classList.add('hidden');
       }
 
-      window.addEventListener('scroll', () => {
+      // Scroll handler function
+      function handleScroll() {
           const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
           if (x.matches) {
               // For mobile devices
               if (scrollTop === 0) {
-                  // At the top of the page on a mobile device
                   navMainContainer.classList.add('hidden');
                   navMainContainerMobile.classList.add('hidden');
               } else if (scrollTop > lastScrollTop) {
-                  // Scrolling down on a mobile device
                   navMainContainer.classList.add('hidden');
                   navMainContainerMobile.classList.add('hidden');
-              } else {
-                  // Scrolling up on a mobile device
+              } else if (scrollTop < lastScrollTop) {
                   navMainContainer.classList.remove('hidden');
                   navMainContainerMobile.classList.remove('hidden');
               }
           } else {
               // For non-mobile devices
               if (scrollTop > lastScrollTop) {
-                  // Scrolling down
                   navMainContainer.classList.add('hidden');
                   navMainContainerMobile.classList.add('hidden');
-              } else {
-                  // Scrolling up
+              } else if (scrollTop < lastScrollTop) {
                   navMainContainer.classList.remove('hidden');
                   navMainContainerMobile.classList.remove('hidden');
               }
           }
 
           lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+      }
+
+      // Attach the scroll event listener
+      window.addEventListener('scroll', handleScroll, { passive: true });
+
+      // Ensure visibility updates on resize
+      window.addEventListener('resize', () => {
+          if (x.matches && (window.scrollY === 0)) {
+              navMainContainer.classList.add('hidden');
+              navMainContainerMobile.classList.add('hidden');
+          } else {
+              navMainContainer.classList.remove('hidden');
+              navMainContainerMobile.classList.remove('hidden');
+          }
       });
   }
 });
