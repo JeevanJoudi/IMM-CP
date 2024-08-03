@@ -85,76 +85,72 @@ svg {
 /*navbar*/
 
 /* navbar-mobile-styles */
-#logo-img-m{
-    position: absolute;
-    top: 10px;
-    left: 0px;
-    width: 480px; 
-    height: auto;
-    transition: transform 0s ease-in-out;
+#logo-img-m {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 480px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
-.nav-main-container-m{
-    width: 400px;
-    margin: 0 auto;
-    transition: transform 0s ease-in-out;
+.nav-main-container-m {
+  width: 400px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
 }
 
 .hidden-m {
-    transform: translateX(-10%) !important;
-    opacity: 0 !important;
+  transform: translateX(-10%);
+  opacity: 0;
 }
 
-#nav-bg-img-r{
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    
-    width: 348px;
-    z-index: 9999;
-    filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
+#nav-bg-img-r {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 348px;
+  z-index: 9999;
+  filter: drop-shadow(0 4px 24px rgba(0, 128, 0, 0.6));
 }
 
 .svg-m {
-    position: fixed;
-    z-index: 10000;
-    top: -127px;
-    left: 50%;
-    
-    transform: translate(-50%, -18%);
-    width: 468px;
-   
+  position: fixed;
+  z-index: 10000;
+  top: -127px;
+  left: 50%;
+  transform: translate(-50%, -18%);
+  width: 468px;
 }
 
 #curve-m {
-    fill: transparent;
+  fill: transparent;
 }
 
 .applynow_button a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .applynow_button a:visited {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-links-m a {
-    text-decoration: none;
-    font-size: 1.3em;
-    font-family: "Raleway", sans-serif;
-    fill: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: "Raleway", sans-serif;
+  fill: white;
 }
 
 .nav-link-container-m {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-
 
 /*end mobile nav*/
 
