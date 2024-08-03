@@ -91,18 +91,15 @@ svg {
   left: 0px;
   width: 480px;
   height: auto;
-  transition: transform 0.3s ease-in-out;
 }
 
 .nav-main-container-m {
   width: 400px;
   margin: 0 auto;
-  transition: transform 0.3s ease-in-out;
 }
 
 .hidden-m {
-  transform: translateX(-10%);
-  opacity: 0;
+  display: none;
 }
 
 #nav-bg-img-r {
@@ -151,7 +148,6 @@ svg {
   align-items: center;
   height: 100%;
 }
-
 /*end mobile nav*/
 
 .flex_container {
