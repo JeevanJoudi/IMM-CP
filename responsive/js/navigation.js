@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastScrollTop = 0;
     const navMainContainer = document.querySelector('.nav-main-container');
     const navMainContainerMobile = document.querySelector('.nav-main-container-m');
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
 
     // Ensure navigation elements exist
     if (navMainContainer && navMainContainerMobile) {
         // Hide navigation on initial load if it's a mobile device and at the top of the page
-        if (isMobile && window.scrollY === 0) {
+        if (mediaQuery.matches && window.scrollY === 0) {
             navMainContainer.classList.add('hidden');
             navMainContainerMobile.classList.add('hidden-m');
         }
@@ -16,14 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
         function handleScroll() {
             const scrollTop = window.scrollY || document.documentElement.scrollTop;
 
+            if (mediaQuery.matches) {
+                // Mobile view - do nothing special on scroll
+                return;
+            }
+
             if (scrollTop > lastScrollTop) {
-                // Scrolling down
+                // Scrolling down on desktop
                 navMainContainer.classList.add('hidden');
-                navMainContainerMobile.classList.add('hidden-m');
             } else {
-                // Scrolling up
+                // Scrolling up on desktop
                 navMainContainer.classList.remove('hidden');
-                navMainContainerMobile.classList.remove('hidden-m');
             }
 
             lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
@@ -34,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Ensure visibility updates on resize
         window.addEventListener('resize', () => {
-            const isMobileResize = window.matchMedia("(max-width: 768px)").matches;
+            const isMobileResize = mediaQuery.matches;
             if (isMobileResize && window.scrollY === 0) {
                 navMainContainer.classList.add('hidden');
                 navMainContainerMobile.classList.add('hidden-m');
