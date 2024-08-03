@@ -1,0 +1,66 @@
+.flex_container.facultyPageWidth {
+	width: 275vw !important;
+}
+
+.faculty_container.facultyPage {
+	padding: 0 20px 0 20px;
+	width: 150vw !important;
+}
+
+.faculty_row2.facultyPageCG {
+	column-gap: 50px;
+}
+
+.faculty_row2 div:nth-child(5) {
+	margin-top: 50px;
+}
+
+.faculty_row2 div:nth-child(6) {
+	margin-top: -50px;
+}
+
+.faculty_photoObject {
+    position: absolute !important;
+    top: 0;
+    right: 0%;
+    width: 15%;
+    min-width: 200px;
+    max-width: 226px;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.flex_container.facultyPageWidth,
+	.faculty_container.facultyPage {
+		width: 100vw !important;
+	}
+
+	.faculty_container.facultyPage {
+		padding: 0 20px 0 20px;
+		overflow: visible;
+	}
+
+	.faculty_row2.facultyPageCG {
+		padding-top: 20px;
+	}
+
+	.faculty_row2 div:nth-child(5) {
+		margin-top: 0;
+	}
+
+	.faculty_row2 div:nth-child(6) {
+		margin-top: 0;
+	}
+
+	.faculty_photoObject {
+	    position: absolute !important;
+	    top: 0;
+	    right: 0%;
+	    width: 20%;
+	    min-width: 150px;
+	    max-width: 226px;
+	    height: auto;
+	}
+
+}
