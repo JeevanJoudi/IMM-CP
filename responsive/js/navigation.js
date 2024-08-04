@@ -1,50 +1,68 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let lastScrollTop = 0;
+    let lastScrollTopMobile = 0;
+    let lastScrollTopDesktop = 0;
     const navMainContainer = document.querySelector('.nav-main-container');
     const navMainContainerMobile = document.querySelector('.nav-main-container-m');
-    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    const x = window.matchMedia("(max-width: 768px)"); // Check for mobile devices
 
     // Ensure navigation elements exist
     if (navMainContainer && navMainContainerMobile) {
-        // Hide navigation on initial load if it's a mobile device and at the top of the page
-        if (mediaQuery.matches && window.scrollY === 0) {
-            navMainContainer.classList.add('hidden');
-            navMainContainerMobile.classList.add('hidden-m');
-        }
-
-        // Scroll handler function
         function handleScroll() {
-            const scrollTop = window.scrollY || document.documentElement.scrollTop;
+            const isMobile = x.matches;
+            const scrollTop = isMobile ? window.scrollY : window.scrollX;
 
-            if (mediaQuery.matches) {
-                // Mobile view - do nothing special on scroll
-                return;
-            }
-
-            if (scrollTop > lastScrollTop) {
-                // Scrolling down on desktop
-                navMainContainer.classList.add('hidden');
+            if (isMobile) {
+                // Mobile devices
+                if (scrollTop === 0) {
+                    navMainContainer.classList.add('hidden');
+                    navMainContainerMobile.classList.add('hidden-m');
+                } else if (scrollTop > lastScrollTopMobile) {
+                    // Scrolling down
+                    navMainContainer.classList.add('hidden');
+                    navMainContainerMobile.classList.add('hidden-m');
+                } else {
+                    // Scrolling up
+                    navMainContainer.classList.remove('hidden');
+                    navMainContainerMobile.classList.remove('hidden-m');
+                }
+                lastScrollTopMobile = scrollTop <= 0 ? 0 : scrollTop;
             } else {
-                // Scrolling up on desktop
-                navMainContainer.classList.remove('hidden');
+                // Non-mobile devices
+                if (scrollTop > lastScrollTopDesktop) {
+                    // Scrolling right
+                    navMainContainer.classList.add('hidden');
+                    navMainContainerMobile.classList.add('hidden-m');
+                } else {
+                    // Scrolling left
+                    navMainContainer.classList.remove('hidden');
+                    navMainContainerMobile.classList.remove('hidden-m');
+                }
+                lastScrollTopDesktop = scrollTop <= 0 ? 0 : scrollTop;
             }
-
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
         }
 
         // Attach the scroll event listener
         window.addEventListener('scroll', handleScroll, { passive: true });
 
-        // Ensure visibility updates on resize
+        // Handle visibility on resize
         window.addEventListener('resize', () => {
-            const isMobileResize = mediaQuery.matches;
-            if (isMobileResize && window.scrollY === 0) {
-                navMainContainer.classList.add('hidden');
-                navMainContainerMobile.classList.add('hidden-m');
+            // Update `isMobile` after resize
+            const isMobile = x.matches;
+            if (isMobile) {
+                if (window.scrollY === 0) {
+                    navMainContainer.classList.add('hidden');
+                    navMainContainerMobile.classList.add('hidden-m');
+                } else {
+                    navMainContainer.classList.remove('hidden');
+                    navMainContainerMobile.classList.remove('hidden-m');
+                }
             } else {
                 navMainContainer.classList.remove('hidden');
                 navMainContainerMobile.classList.remove('hidden-m');
             }
         });
+
+        // Initial visibility check
+        handleScroll();
     }
 });
